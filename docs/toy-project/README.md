@@ -4,8 +4,6 @@ title: My Toy Project
 icon: config
 category:
   - toy-project
-tag:
-  - disable
 
 pageInfo: false
 comment: false
