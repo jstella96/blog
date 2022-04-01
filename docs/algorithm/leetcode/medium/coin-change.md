@@ -4,8 +4,7 @@ icon: creative
 title: Coin Change
 category:
   - algorithm
-tag:
-  -
+tag: false
 ---
 
 [문제링크](https://leetcode.com/problems/coin-change/)
