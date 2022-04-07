@@ -7,10 +7,6 @@ category:
 editLink: false
 ---
 
-::: tip 학습 목표
-Q. 가상메모리의 개념과 사용시 장점은?
-:::
-
 ### CPU 스케쥴링 개념
 
 - 목적 : CPU 사용의 최대화
