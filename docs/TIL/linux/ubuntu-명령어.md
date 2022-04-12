@@ -73,3 +73,9 @@ ex) 700 : user에게만 모든 권한부여, 644: user에게는 read, write 권�
 - ; - 앞의 명령어가 실패해도 다음 명령어가 실행
 - && - 앞의 명령어가 성공했을 때 다음 명령어가 실행
 - & - 앞의 명령어를 백그라운드로 돌리고 동시에 뒤의 명령어를 실행
+
+## systemctl
+
+`enable`
+
+ex ) `sudo systemctl enable mongod`
