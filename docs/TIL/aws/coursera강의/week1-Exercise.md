@@ -1,7 +1,7 @@
 ---
 index: 1
 icon: creative
-title: Week 1 Exercise
+title: Week 1 실습
 category:
   - aws
 editLink: false

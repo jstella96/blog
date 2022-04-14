@@ -1,7 +1,7 @@
 ---
 index: 1
 icon: creative
-title: Domain 1. Design Resilient Architectures
+title: 실습- Domain 1. Design Resilient Architectures
 category:
   - aws
 editLink: false
