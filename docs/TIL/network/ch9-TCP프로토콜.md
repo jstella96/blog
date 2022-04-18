@@ -174,4 +174,21 @@ A L 2501 받은 시퀀스 번호에 받은 데이터 더해주는 것.
 
 ## TCP 상태전이도
 
+TCP의 상태변화
+
+중요한거 Listen 상태 : 포트번호를 열어놓고 있는 상태, 서버가 포트번호 사용하고 있는.
+클라이언트의 요청을 계속 듣고 있는 상태
+ESTABLISHED : 연결이 서로 수립되어 있는 상태 3핸드쉐이크 끝나면 수힙된다.
+CLOSED
+![상태](./img/09.tcp-상태.png)
+위처럼 tcp 통신 시작할때 클라이언트는 SYN_SENT 상태가 되고 싱크 요청받은 서버는
+Listening상태에서 SYN_RECEIVED상태가 된다.
+핸드쉐이크 과정끝나면 클라이언트와 서버가 ESTABLISHED 상태가 되고, 통신가능해진다.
+
 ## 실습
+
+wire sg tcp 캡처후 하나 클릭 우클릭 -> follow -> tcp stream 클릭하면
+![](/tcp - 실습)
+point 1. 처음 핸드쉐이크 과정 seq, ack
+point 2. 4 번째 통신 다시 클라이언트가 서버한테
+point 3. 5번째 통신 ack 에는 seq + data (직전 tcp 통신이 보낸 tcp의 페이로드)
