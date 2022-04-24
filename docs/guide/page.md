@@ -22,6 +22,7 @@ sticky: true
 star: true
 # You can customize the footer
 footer: Footer content for test
+pageInfo: false
 ---
 
 Content before `more` comment is regarded as page excerpt.
