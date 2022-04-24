@@ -27,8 +27,8 @@ export default defineThemeConfig({
   footer: "© 2022 j.stellar powered by vue-press",
 
   displayFooter: true,
-
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  //"Author",, "ReadingTime"
+  pageInfo: [ "Original", "Date", "Category", "Tag"], 
 
   encrypt: {
     config: {
@@ -42,7 +42,7 @@ export default defineThemeConfig({
     },
     
 
-    // you can also use Waline
+    // you can also use Waline -?
     comment: {
       type: "giscus",
       repo: "vuepress-theme-hope/giscus-discussions",
