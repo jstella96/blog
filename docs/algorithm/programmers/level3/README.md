@@ -1,5 +1,5 @@
 ---
 index: false
-icon: creative
+icon: selection
 title: Level3
 ---
