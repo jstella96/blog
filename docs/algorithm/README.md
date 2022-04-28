@@ -1,5 +1,5 @@
 ---
 index: false
-icon: creative
+icon: condition
 title: Algorithm
 ---
