@@ -1,5 +1,5 @@
 ---
 index: false
-icon: false
+icon: page
 title: NetWork
 ---
