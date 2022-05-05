@@ -1,5 +1,5 @@
 ---
-index: 4
+index: 5
 icon: creative
 title: 운영체제 유형
 category:

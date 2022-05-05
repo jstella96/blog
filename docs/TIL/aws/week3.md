@@ -1,5 +1,5 @@
 ---
-index: 1
+index: 31
 icon: creative
 title: Domain 3. Design Secure Applications and Architectures
 category:

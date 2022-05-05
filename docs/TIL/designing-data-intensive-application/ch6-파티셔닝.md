@@ -1,5 +1,5 @@
 ---
-index: 1
+index: 6
 icon: creative
 title: 파티셔닝
 category:

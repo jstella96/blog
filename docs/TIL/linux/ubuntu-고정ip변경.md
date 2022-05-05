@@ -1,5 +1,5 @@
 ---
-index: 1
+index: 4
 icon: creative
 title: Ubuntu 고정 IP 변경
 category:

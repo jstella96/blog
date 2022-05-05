@@ -1,5 +1,5 @@
 ---
-index: 1
+index: 41
 icon: creative
 title: Domain 4. Design Cost-Optimized Architectures
 category:

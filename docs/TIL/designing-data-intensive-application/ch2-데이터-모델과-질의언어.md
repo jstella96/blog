@@ -1,5 +1,5 @@
 ---
-index: 1
+index: 2
 icon: creative
 title: ch2 데이터 모델과 질의 언어
 category:

@@ -1,10 +1,7 @@
 ---
 index: 1
 title: Today I Learned
-icon: creative
-category:
-  - TIL
-
+icon: read
 pageInfo: false
 comment: false
 editLink: false

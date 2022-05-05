@@ -1,5 +1,5 @@
 ---
 index: false
 icon: page
-title: Sql
+title: etc
 ---

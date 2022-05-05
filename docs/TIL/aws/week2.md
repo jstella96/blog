@@ -1,5 +1,5 @@
 ---
-index: 1
+index: 21
 icon: creative
 title: Domain 2. Design High-Performing Architectures
 category:

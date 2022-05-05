@@ -37,9 +37,7 @@ export default defineThemeConfig({
   },
 
   plugins: {
-    blog: {
-      autoExcerpt: true,
-    },
+    blog: false,
     
 
     // you can also use Waline -?

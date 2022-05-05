@@ -10,23 +10,23 @@ actions:
     link: /
 
   - text: GitHub 😺
-    link: /
+    link: https://github.com/jstella96
 
 features:
   - title: Today I Learned
     icon: read
     details: 공부한 내용을 기록하는 공간입니다
-    link: /guide/markdown/
+    link: /TIL/
 
   - title: Algorithm
     icon: condition
     details: 알고리즘 풀이를 정리하는 공간입니다
-    link: /guide/feature/comment/
+    link: /algorithm/
 
   - title: My Toy Project
     icon: build
     details: 개인 공부용으로 만든 Toy 프로젝트를 소개하는 공간입니다
-    link: /guide/feature/page-info/
+    link: /toy-project/
 
 copyright: false
 ---

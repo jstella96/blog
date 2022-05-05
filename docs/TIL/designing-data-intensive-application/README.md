@@ -1,6 +1,6 @@
 ---
 index: false
-icon: creative
+icon: article
 title: Designing Data Intensive Application
 ---
 
