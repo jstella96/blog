@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Network Delay Time
 category:
-  - algorithm
+  - Algorithm
 tag:
   - dijkstra
   - graph

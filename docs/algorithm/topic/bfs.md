@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: BFS, 너비 우선 탐색
 category:
-  - algorithm
+  - Algorithm
 tag:
   - BFS
 ---

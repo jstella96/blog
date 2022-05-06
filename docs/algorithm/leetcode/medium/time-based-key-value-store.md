@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Time Based Key-Value Store
 category:
-  - algorithm
+  - Algorithm
 tag:
   - Hash
   - Heap

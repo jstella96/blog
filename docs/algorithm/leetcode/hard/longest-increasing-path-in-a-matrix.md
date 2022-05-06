@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Longest Increasing Path in a Matrix
 category:
-  - algorithm
+  - Algorithm
 tag: false
 ---
 

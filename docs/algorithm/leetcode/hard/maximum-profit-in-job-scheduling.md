@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Maximum Profit in Job Scheduling
 category:
-  - algorithm
+  - Algorithm
 tag:
   - dp
   - sort

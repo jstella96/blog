@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Merge k Sorted Lists
 category:
-  - algorithm
+  - Algorithm
 tag:
   - Heap
 ---

@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Robot Bounded In Circle
 category:
-  - algorithm
+  - Algorithm
 tag:
   - 구현문제
 ---

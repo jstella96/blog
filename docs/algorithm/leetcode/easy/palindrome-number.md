@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Palindrome Number
 category:
-  - algorithm
+  - Algorithm
 tag:
   - two point
   - stack

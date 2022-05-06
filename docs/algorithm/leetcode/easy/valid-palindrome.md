@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Valid Palindrome
 category:
-  - algorithm
+  - Algorithm
 tag: false
 ---
 

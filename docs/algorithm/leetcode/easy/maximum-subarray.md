@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Maximum Subarray
 category:
-  - algorithm
+  - Algorithm
 tag: false
 ---
 

@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Group Anagrams
 category:
-  - algorithm
+  - Algorithm
 tag: false
 ---
 

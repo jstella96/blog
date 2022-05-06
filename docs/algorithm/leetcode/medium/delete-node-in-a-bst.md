@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Delete Node in a BST
 category:
-  - algorithm
+  - Algorithm
 tag:
   - TreeNode
 ---

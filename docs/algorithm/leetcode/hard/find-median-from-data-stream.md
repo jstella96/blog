@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Find Median from Data Stream
 category:
-  - algorithm
+  - Algorithm
 tag:
   - Heap
 ---

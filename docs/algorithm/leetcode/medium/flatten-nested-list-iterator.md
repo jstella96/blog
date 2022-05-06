@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Flatten Nested List Iterator
 category:
-  - algorithm
+  - Algorithm
 tag:
   - queue
 ---

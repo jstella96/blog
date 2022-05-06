@@ -1,20 +1,8 @@
----
-index: 1
-icon: creative
-title: 순위
-category:
-  - Algorithm
-tag:
-  - DFS
----
-* 겨우 푼 풀이 그래프는 연습이 많이 필요!
-## 풀이 코드 JavaScript 
-```js
 function solution(n, results) {
     //승패 그래프 만들기(null로 초기화하여 생성) // 이긴사람 번호를 적는다.
     const graph = Array.from(Array(n+1), () => new Array(n+1).fill(null));
     const visited = Array.from(Array(n+1), () => new Array(n+1).fill(false));
-
+    console.log(visited)
    for(const [win, lose]  of results){ //자바스크립트는 Array로 만들어도된다.
         graph[win][lose]  = win;
         graph[lose][win]  = win;
@@ -30,10 +18,10 @@ function solution(n, results) {
             }
         }
     }
-      console.log(graph)
     let map = graph.map( x => x.filter(y  => y ==null))
     let answer = map.filter(x => x.length === 2).length;
-    return answer;
+    console.log(answer)
+    return 0;
 }
 
 //추가체크 이긴애를 이긴애가 있어?
@@ -44,7 +32,6 @@ function recursive(win,lose,graph,visited){
     visited[lose][win] = true;
     let winPlayers = getWinPlayer(win,graph);
     let losePlayers = getLosePlayer(lose,graph);
-
     for(let winPlayer of winPlayers){
         graph[winPlayer][lose] = win;
         graph[lose][winPlayer] = win;
@@ -53,11 +40,11 @@ function recursive(win,lose,graph,visited){
         graph[win][losePlayer] = win;
         graph[losePlayer][win] = win;
     }
-    winPlayers.push(win);
-    losePlayers.push(lose);
     for(let winPlayer of winPlayers){
         for(let losePlayer of losePlayers){
             if(graph[winPlayer][losePlayer] != null ){
+                console.log('win='+winPlayer)
+                console.log('lose='+losePlayer)
                 graph[winPlayer][losePlayer] = winPlayer;
                 graph[winPlayer][losePlayer] = winPlayer;
                 recursive(winPlayer,losePlayer,graph,visited)
@@ -72,5 +59,4 @@ function getWinPlayer(player,graph){ // player를 이긴 사람 명단
 function getLosePlayer(player,graph){ //player한테 진 사람 명단
     return graph[player].filter((item)=> {return item != null && item == player} )
 }
-
-```
+console.log(solution(5,	[[4, 3], [4, 2], [3, 2], [1, 2], [2, 5]]))

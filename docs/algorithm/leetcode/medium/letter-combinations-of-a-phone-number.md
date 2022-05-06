@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Letter Combinations of a Phone Number
 category:
-  - algorithm
+  - Algorithm
 tag: false
 ---
 

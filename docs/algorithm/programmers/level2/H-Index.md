@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: H-Index
 category:
-  - algorithm
+  - Algorithm
 tag:
   - 정렬
 ---

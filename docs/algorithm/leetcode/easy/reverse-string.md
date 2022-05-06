@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Reverse String
 category:
-  - algorithm
+  - Algorithm
 tag: false
 ---
 

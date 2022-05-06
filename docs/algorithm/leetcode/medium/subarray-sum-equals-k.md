@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Subarray Sum Equals K
 category:
-  - algorithm
+  - Algorithm
 tag:
   - subarray
 ---

@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Merge Intervals
 category:
-  - algorithm
+  - Algorithm
 tag:
   - sort
 ---

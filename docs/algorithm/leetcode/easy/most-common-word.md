@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Most Common Word
 category:
-  - algorithm
+  - Algorithm
 tag: false
 ---
 

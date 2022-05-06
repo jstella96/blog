@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Generate Parentheses
 category:
-  - algorithm
+  - Algorithm
 tag:
   - TreeNode
   - BST

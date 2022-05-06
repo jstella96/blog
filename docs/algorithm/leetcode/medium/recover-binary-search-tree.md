@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Recover Binary Search Tree
 category:
-  - algorithm
+  - Algorithm
 tag:
   - BST
 ---

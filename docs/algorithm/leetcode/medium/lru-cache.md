@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: LRU Cache
 category:
-  - algorithm
+  - Algorithm
 tag:
   - sort
 ---

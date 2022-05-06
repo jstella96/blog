@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Delete and Earn
 category:
-  - algorithm
+  - Algorithm
 tag:
   - dp
 ---

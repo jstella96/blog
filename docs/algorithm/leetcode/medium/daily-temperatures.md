@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Daily Temperatures
 category:
-  - algorithm
+  - Algorithm
 tag:
   - stack
 ---

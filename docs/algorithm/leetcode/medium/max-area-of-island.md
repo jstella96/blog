@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Max Area of Island
 category:
-  - algorithm
+  - Algorithm
 tag:
   - DFS
   - island

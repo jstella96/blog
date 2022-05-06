@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Sliding Window Maximum
 category:
-  - algorithm
+  - Algorithm
 tag:
   - SlidingWindow
 ---

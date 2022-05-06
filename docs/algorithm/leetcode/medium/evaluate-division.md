@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Evaluate Division
 category:
-  - algorithm
+  - Algorithm
 tag:
   - graph
 ---

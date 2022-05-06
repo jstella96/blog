@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Reorder Data in Log Files
 category:
-  - algorithm
+  - Algorithm
 tag: false
 ---
 

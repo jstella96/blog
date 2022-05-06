@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: 3Sum Closest
 category:
-  - algorithm
+  - Algorithm
 tag: false
 ---
 

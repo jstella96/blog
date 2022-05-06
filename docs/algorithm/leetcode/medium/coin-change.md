@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Coin Change
 category:
-  - algorithm
+  - Algorithm
 tag: false
 ---
 

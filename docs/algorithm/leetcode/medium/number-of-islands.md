@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Number of Islands
 category:
-  - algorithm
+  - Algorithm
 tag:
   - DFS
   - island

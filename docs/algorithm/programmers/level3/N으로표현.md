@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: N으로 표현
 category:
-  - algorithm
+  - Algorithm
 tag:
   - DFS
 ---

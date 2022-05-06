@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Tweet Counts Per Frequency
 category:
-  - algorithm
+  - Algorithm
 tag:
   - TreeNode
   - BinarySearch

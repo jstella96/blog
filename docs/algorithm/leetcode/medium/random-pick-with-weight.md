@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Random Pick with Weight
 category:
-  - algorithm
+  - Algorithm
 tag:
   - binarySearch
 ---

@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Top K Frequent Elements
 category:
-  - algorithm
+  - Algorithm
 tag:
   - Hash
   - Heap

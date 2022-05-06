@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Remove All Adjacent Duplicates in String II
 category:
-  - algorithm
+  - Algorithm
 tag:
   - stack
 ---

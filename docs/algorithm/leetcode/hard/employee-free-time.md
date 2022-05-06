@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Employee Free Time
 category:
-  - algorithm
+  - Algorithm
 tag:
   - Heap
 ---

@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Word Break II
 category:
-  - algorithm
+  - Algorithm
 tag:
   - word-break
 ---

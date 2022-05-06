@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Decode String
 category:
-  - algorithm
+  - Algorithm
 tag:
   - stack
 ---

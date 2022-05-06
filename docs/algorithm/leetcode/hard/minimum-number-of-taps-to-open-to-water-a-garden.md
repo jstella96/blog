@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Minimum Number of Taps to Open to Water a Garden
 category:
-  - algorithm
+  - Algorithm
 tag: false
 ---
 

@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Serialize and Deserialize Binary Tree
 category:
-  - algorithm
+  - Algorithm
 tag:
   - Binary Tree
 ---

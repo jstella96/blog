@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Product of Array Except Self
 category:
-  - algorithm
+  - Algorithm
 tag: false
 ---
 

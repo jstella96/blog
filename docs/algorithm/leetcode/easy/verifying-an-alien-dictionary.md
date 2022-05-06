@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Verifying an Alien Dictionary
 category:
-  - algorithm
+  - Algorithm
 tag:
   - Hash
 ---

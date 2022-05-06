@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Insert Delete GetRandom O(1)
 category:
-  - algorithm
+  - Algorithm
 tag:
   - TreeNode
   - BST

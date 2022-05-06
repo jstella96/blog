@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Balance a Binary Search Tree
 category:
-  - algorithm
+  - Algorithm
 tag:
   - TreeNode
   - BST

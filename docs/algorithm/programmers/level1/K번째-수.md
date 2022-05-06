@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: K번째 수
 category:
-  - algorithm
+  - Algorithm
 tag:
   - 정렬
 ---

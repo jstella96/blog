@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Find the Celebrity
 category:
-  - algorithm
+  - Algorithm
 tag: false
 ---
 

@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Minimum Remove to Make Valid Parentheses
 category:
-  - algorithm
+  - Algorithm
 tag:
   - stack
 ---

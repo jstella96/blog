@@ -3,7 +3,7 @@ index: 1
 icon: creative
 title: Convert Binary Search Tree to Sorted Doubly Linked List
 category:
-  - algorithm
+  - Algorithm
 tag:
   - binarySearch
   - TreeNode
