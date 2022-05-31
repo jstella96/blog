@@ -4,7 +4,7 @@ icon: home
 title: Home
 heroImage: /myLogo.png
 heroText: J.Stella Tech Blog
-tagline: Hi, I'm a junior backend developer✨
+tagline: Hi, I'm a junior developer✨
 actions:
   - text: Blog home 🏠
     link: /
