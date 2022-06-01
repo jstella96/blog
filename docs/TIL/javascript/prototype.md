@@ -1,6 +1,6 @@
 ---
 index: 6
-icon: creative
+icon: lock
 title: 프로토타입
 category:
   - JavaScript
