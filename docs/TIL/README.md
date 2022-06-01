@@ -1,6 +1,6 @@
 ---
 index: 1
-title: Today I Learned
+title: Study Log
 icon: read
 pageInfo: false
 comment: false
@@ -14,7 +14,7 @@ footer: false
 backtotop: false
 ---
 
-해당페이지는 TIL Log페이지 입니다. TIL정리 내용은 사이드바의 카테고리를 이용해주세요
+해당페이지는 Log페이지 입니다. 정리 내용은 사이드바의 카테고리를 이용해주세요
 
 ## CS
 
@@ -27,6 +27,12 @@ backtotop: false
 **참고서적:**  
 운영체제(한빛미디어)  
 운영체제와 정보기술의 원리(이화여자대학교)
+
+### Network
+
+:bulb: 공부 목적: 기본적인 컴퓨터 공학 기초 학습  
+**참고강의:**  
+[따라하며 배우는 IT - 네트워크 기초(YouTube)](https://www.youtube.com/playlist?list=PL0d8NnikouEWcF1jJueLdjRIC4HsUlULi)
 
 ## IT 서적 스터디
 

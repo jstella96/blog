@@ -1,7 +1,14 @@
 ---
 index: false
-icon: article
+icon: write
 title: Designing Data Intensive Application
+pageInfo: false
+comment: false
+editLink: false
+contributors: false
+lastUpdated: false
+prev: false
+next: false
+footer: false
+backtotop: false
 ---
-
-- 자바스크립트를 타입스크립트로 변환하기 위해 필요한 개념들
