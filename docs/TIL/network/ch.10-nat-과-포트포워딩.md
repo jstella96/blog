@@ -13,7 +13,7 @@ editLink: false
 Q. nat은 어떤기술인가?  
 Q. 포트포워딩이란?
 :::
-
+해당페이지는 2022년 3월 노션에서 마이그레이션 되었습니다.  
 ## NAT
 NAT(Network Address Translation)은 IP 패킷의 TCP/UDP 포트 숫자와
 소스 및 목적지의 IP 주소 등을 재기록하면서 라우터를 통해 네트워크

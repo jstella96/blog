@@ -4,6 +4,8 @@ icon: creative
 title: UDP프로토콜
 category:
   - Network
+tag: 
+  - 네트워크
 editLink: false
 ---
 
@@ -12,6 +14,7 @@ Q.UDP가 하는 일
 Q.UDP 프로토콜의 구조   
 Q.UDP 프로토콜을 사용하는 대표적인 프로그램들  
 :::
+해당페이지는 2022년 3월 노션에서 마이그레이션 되었습니다.  
 
 ## UDP 프로토콜 하는 일
 
