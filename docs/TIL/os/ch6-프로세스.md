@@ -4,8 +4,16 @@ icon: creative
 title: 프로세스
 category:
   - OS
+tag:
+- 운영체제
 editLink: false
 ---
+:::tip GOAL
+Q. 프로세스란 무엇인가요?  
+Q. 프로세스의 메모리 구조를 설명하세요.  
+Q. 컨텍스트 스위치와 PCB는 무엇인가요?
+:::
+해당페이지는 2022년 3월 노션에서 마이그레이션 되었습니다.  
 
 ## 프로세스의 개념
 
