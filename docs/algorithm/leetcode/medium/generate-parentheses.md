@@ -4,9 +4,6 @@ icon: creative
 title: Generate Parentheses
 category:
   - Algorithm
-tag:
-  - TreeNode
-  - BST
 ---
 
 [문제링크](https://leetcode.com/problems/generate-parentheses/)

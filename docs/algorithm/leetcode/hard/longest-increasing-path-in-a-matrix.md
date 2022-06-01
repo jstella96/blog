@@ -23,8 +23,6 @@ Explanation: The longest increasing path is [1, 2, 6, 9].
 
 ## 문제 풀이
 
-[풀이방법]
-
 dfs: 가짓수를 다 계산해서 끝 값을 반환한다.
 memo을 이용해서 그 지점에서 갈 수 있는 최대 값을 저장한다.
 

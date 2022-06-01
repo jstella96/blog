@@ -1,7 +1,7 @@
 ---
 index: false
 icon: selection
-title: hard
+title: easy
 pageInfo: false
 comment: false
 editLink: false

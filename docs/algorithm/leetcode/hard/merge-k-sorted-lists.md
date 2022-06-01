@@ -5,7 +5,7 @@ title: Merge k Sorted Lists
 category:
   - Algorithm
 tag:
-  - Heap
+  - heap
 ---
 
 [문제링크](https://leetcode.com/problems/merge-k-sorted-lists/)

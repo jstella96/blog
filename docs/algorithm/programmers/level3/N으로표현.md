@@ -6,10 +6,10 @@ category:
   - Algorithm
 tag:
   - dp
-date: 2022-05-01
 editLink: false
 contributors: false
 ---
+해당페이지는 2022년 3월 노션에서 마이그레이션 되었습니다.   
 
 [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42895)
 

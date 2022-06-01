@@ -5,9 +5,9 @@ title: Top K Frequent Elements
 category:
   - Algorithm
 tag:
-  - Hash
-  - Heap
-  - Queue
+  - hash
+  - heap
+  - queue
 ---
 
 [문제링크](https://leetcode.com/problems/top-k-frequent-elements/)

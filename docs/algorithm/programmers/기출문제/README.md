@@ -1,7 +1,7 @@
 ---
 index: false
+title: 기출문제
 icon: selection
-title: hard
 pageInfo: false
 comment: false
 editLink: false

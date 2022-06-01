@@ -5,7 +5,7 @@ title: Find Median from Data Stream
 category:
   - Algorithm
 tag:
-  - Heap
+  - heap
 ---
 
 [문제링크](https://leetcode.com/problems/employee-free-time/)

@@ -5,7 +5,7 @@ title: Max Area of Island
 category:
   - Algorithm
 tag:
-  - DFS
+  - dfs
   - island
 ---
 
