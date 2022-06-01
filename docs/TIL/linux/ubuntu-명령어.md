@@ -4,6 +4,7 @@ icon: creative
 title: Ubuntu 명령어
 category:
   - linux
+date: 2022-04-06
 editLink: false
 ---
 
@@ -29,15 +30,14 @@ editLink: false
   `scp 파일명 계정@서버주소:목적경로`
   `scp ./log.txt userA@192.168.0.36:/home/logs`
 
-현재 내 서버의 log.txt 란 파일을 `192.168.0.36` 서버의`/home/logs` 경로로 이동시킨다.
-
-목표 서버의 user이름은 userA이다. ssh 접속 설정이 되어있으면 해당명령어를 치면 비밀번호 입력창이 나온다.
+  현재 내 서버의 log.txt 란 파일을 `192.168.0.36` 서버의`/home/logs` 경로로 이동시킨다.
+  목표 서버의 사용자 이름은 userA이다. ssh 접속 설정이 되어있으면 해당명령어를 치면 비밀번호 입력창이 나온다.
 
 - 현재 서버로 다른서버의 파일 복사
 
-로컬 경로와 원격 경로를 반대로 입력해서 실행하면 된다.  
-`scp 계정@서버주소:원본경로 목적파일명`  
-`scp userA@192.168.0.36:/home/logs/logs /mylogs`
+  로컬 경로와 원격 경로를 반대로 입력해서 실행하면 된다.  
+  `scp 계정@서버주소:원본경로 목적파일명`  
+  `scp userA@192.168.0.36:/home/logs/logs /mylogs`
 
 - 옵션  
    디렉토리 복사시 scp 뒤에 -r 옵션을 추가 해주면 된다.  
@@ -76,6 +76,10 @@ ex) 700 : user에게만 모든 권한부여, 644: user에게는 read, write 권�
 
 ## systemctl
 
-`enable`
+**enable** : 시스템이 재부팅하면 자동으로 서비스 실행
 
 ex ) `sudo systemctl enable mongod`
+
+**disable** : enable한 서비스 해제
+
+**status** : 서비스 상태 확인

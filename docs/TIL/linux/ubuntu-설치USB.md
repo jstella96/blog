@@ -4,6 +4,7 @@ icon: creative
 title: 우분투(Ubuntu)서버 설치USB 만들기
 category:
   - linux
+date: 2022-04-06
 editLink: false
 ---
 
@@ -12,7 +13,7 @@ Ubuntu Server를 설치하기 위해서는 먼저 부팅 가능한(bootable)한 
 ## 1. 우분투 리눅스 설치 파일 다운로드
 
 우분투 리눅스 홈페이지([https://ubuntu.com/download/server](https://ubuntu.com/download/server))에서 Ubuntu Server를 다운로드한다.
-2022.04.06기준 LTS로 출시된 가장 최신의 우분투 리눅스 버전은 "20.04.4 LTS"이다.
+2022.04.06기준 LTS로 출시된 가장 최신의 우분투 리눅스 버전은 "20.04.4 LTS"이다.  
 ![우분투설치파일다운](./img/우분투설치-설치파일다운.png)
 
 ## 2. 부팅가능한 설치 USB 만들기
