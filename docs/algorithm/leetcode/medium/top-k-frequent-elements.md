@@ -4,10 +4,6 @@ icon: creative
 title: Top K Frequent Elements
 category:
   - Algorithm
-tag:
-  - hash
-  - heap
-  - queue
 ---
 
 [문제링크](https://leetcode.com/problems/top-k-frequent-elements/)

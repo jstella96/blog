@@ -71,10 +71,5 @@ class TweetCounts {
     }
 }
 
-/**
- * Your TweetCounts object will be instantiated and called as such:
- * TweetCounts obj = new TweetCounts();
- * obj.recordTweet(tweetName,time);
- * List<Integer> param_2 = obj.getTweetCountsPerFrequency(freq,tweetName,startTime,endTime);
- */
+
 ```
