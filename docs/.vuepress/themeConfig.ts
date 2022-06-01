@@ -23,8 +23,8 @@ export default defineThemeConfig({
 
   // sidebar
   sidebar: sidebar,
-
-  footer: "© 2022 j.stellar powered by vue-press",
+//© 2022 j.stellar powered by vue-press
+  footer: "",
 
   displayFooter: true,
   //"Author",, "ReadingTime"
@@ -32,14 +32,13 @@ export default defineThemeConfig({
 
   encrypt: {
     config: {
-      "/guide/encrypt.html": ["1234"],
+      "/TIL/javascript/prototype.html": ["0218"],
     },
   },
 
   plugins: {
     blog: false,
     
-
     // you can also use Waline -?
     comment: {
       type: "giscus",

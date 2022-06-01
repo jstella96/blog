@@ -7,15 +7,14 @@ category:
 editLink: false
 ---
 
-::: tip 학습 목표
+::: tip GOAL
 Q. 자바스크립트에서의 this를 설명하시오
 :::
+해당페이지는 2022년 3월 노션에서 마이그레이션 되었습니다.  
 
 ## This
 
-ThisBinding은 실행 컨텍스트가 활성화 될 때 한다.
-실행컨텍스트가 생성되는 순간에 언제? 이 컨텍스트가 실행되는 함수가 호출될때
-즉 함수가 호출될 때 결정된다. 즉 정적바인딩아닌 동적 바인딩이다. ==호출하는 방식에 따라 다르다==
+ThisBinding은 실행 컨텍스트가 활성화 될 때 한다. 이 컨텍스트가 실행되는 함수가 호출될 때 결정된다. 즉 정적바인딩아닌 동적 바인딩이다. ==호출하는 방식에 따라 다르다==
 
 ## 호출 방식 - 함수를 어떻게 호출 했는가
 
@@ -96,8 +95,8 @@ a.b.c(); = a.b["c"]
 - 기본적으로는 함수 내부에서와 동일
 - 콜백 함수 내부에서 this는 기본적으로는 전역객체로 보는게 맞으나. 지정하는 바에 따라서 달라질 수 있다.
 
-:::tip
-명시적으로 this를 바인딩하는 3가지 방법call , apply, bind 명령어
+
+* 명시적으로 this를 바인딩하는 3가지 방법call , apply, bind 명령어
 
 ```js
 function a(x, y, z)
@@ -122,9 +121,8 @@ func.bind(thisArg, [ arg2[, arg2[...]]])
 
 ```
 
-:::
 
-예제1
+예제1 : callback에 명시적 this 바인딩
 
 ```js
 var callback = function () {
@@ -140,7 +138,7 @@ var obj = {
 obj.b(callback);
 ```
 
-예제2
+예제2 : callback에 명시적 this 바인딩
 
 ```js
 var callback = function () {
@@ -153,7 +151,7 @@ setTimeout(callback, 100); //setTimeout 전역객체 별도 처리 하지 않아
 setTimeout(callback.bind(obj), 100);
 ```
 
-예제3
+예제3: callback 내부 정의
 
 이벤트 핸들러 에서 이벤트 발생시 호출하는 함수의 this는 전역이아니라 해당 HTML DOM객체이다.
 그렇게 하도록 내부에서 정의가 되어 있다. 이렇듯 콜백함수의 this를 별도로 지정해놓은 경우가 있다.
@@ -178,9 +176,10 @@ function Person(n, a) {
 var roy = Person("재남, 30"); // new 없이 -> 함수로써 호출
 console.log(window.name, window.age); // 전역객체에 값이 할당된다.
 
-var roy = new Person("재남, 30"); // new 있으 호출 생성자 함수로써 호출, 새로생성될 Person의 인스턴스 객체 자신이 곧 this 객체가 새로 만들어지면서 그 객체안에 name, age 프로퍼티가 생성되면서 값이 담긴다.
-
-console.log(roy);
+var roy = new Person("재남, 30"); 
+/* new 있이 -> 호출 생성자 함수로써 호출, 새로생성될 Person의 인스턴스 객체 자신이 곧 this
+ 객체가 새로 만들어지면서 그 객체안에 name, age 프로퍼티가 생성되면서 값이 담긴다.
+ console.log(roy);
 ```
 
 ## 결론
