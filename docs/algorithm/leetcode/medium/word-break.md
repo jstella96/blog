@@ -7,12 +7,13 @@ category:
 tag: false
 ---
 
+해당페이지는 2022년 3월 노션에서 마이그레이션 되었습니다.
+
 [문제링크](https://leetcode.com/problems/word-break/)
 
 ## 문제 설명
 
 문자열 `str`과 `word`가 주어지는데 해당 `word`를 조합해서 `str`을 만들 수 있는가?
-
 
 ## 문제 풀이
 

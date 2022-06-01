@@ -7,6 +7,8 @@ category:
 tag: false
 ---
 
+해당페이지는 2022년 3월 노션에서 마이그레이션 되었습니다.
+
 [문제링크](https://leetcode.com/problems/meeting-rooms-ii/)
 
 ## 문제 설명
@@ -29,7 +31,6 @@ Example 2:
 Input: intervals = [[7,10],[2,4]]
 Output: 1
 ```
-
 
 ## 문제 풀이
 

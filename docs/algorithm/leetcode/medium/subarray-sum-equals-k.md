@@ -8,6 +8,8 @@ tag:
   - subarray
 ---
 
+해당페이지는 2022년 3월 노션에서 마이그레이션 되었습니다.
+
 [문제링크](https://leetcode.com/problems/subarray-sum-equals-k/)
 
 ## 문제 설명
@@ -35,8 +37,6 @@ Output: 2
 k=2라면 (0,2) (1,3) => return 2 가 된다.
 nums를 for문 돌리면서 sum에 값을 더하고 map에 put(sum, 현재까지 같은 sum을 가진 숫자)
 현재 sum - k 값과 동일한 key를 가진 value 를 answer에 더힌다. 그 시기의 sum은 본인의 index를 포함하기 때문에, 매 순회마다 같은 작업을 해줘야한다.
-
-
 
 ## 풀이 코드
 

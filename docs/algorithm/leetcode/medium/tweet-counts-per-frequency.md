@@ -9,6 +9,8 @@ tag:
   - binary-search
 ---
 
+해당페이지는 2022년 3월 노션에서 마이그레이션 되었습니다.
+
 [문제링크](https://leetcode.com/problems/tweet-counts-per-frequency/)
 
 ## 문제 설명
@@ -26,7 +28,7 @@ tag:
 
 - `TweetCounts()` : TweetCounts 개체를 초기화합니다.
 - `void recordTweet(String tweetName, int time)` : 기록된 시간(초 단위)의 tweetName을 저장합니다.
-- `List<Integer> getTweetCountsPerFrequency(String freq, String tweetName, int startTime, int endTime)`:   주어진 기간 [startTime, endTime](초) 동안 각 시간 청크에서 tweetName이 있는 트윗 수를 나타내는 정수 목록을 반환합니다. freq는 "분", "시" 또는 "일" 중 하나이며 각각 분, 시간 또는 일의 빈도를 나타냅니다.
+- `List<Integer> getTweetCountsPerFrequency(String freq, String tweetName, int startTime, int endTime)`: 주어진 기간 [startTime, endTime](초) 동안 각 시간 청크에서 tweetName이 있는 트윗 수를 나타내는 정수 목록을 반환합니다. freq는 "분", "시" 또는 "일" 중 하나이며 각각 분, 시간 또는 일의 빈도를 나타냅니다.
 
 ## 문제 풀이
 

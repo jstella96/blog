@@ -9,6 +9,8 @@ tag:
   - stack
 ---
 
+해당페이지는 2022년 3월 노션에서 마이그레이션 되었습니다.
+
 [문제링크](https://leetcode.com/problems/palindrome-number/)
 
 ## 문제 설명

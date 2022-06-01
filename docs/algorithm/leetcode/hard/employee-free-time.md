@@ -8,6 +8,8 @@ tag:
   - Heap
 ---
 
+해당페이지는 2022년 3월 노션에서 마이그레이션 되었습니다.
+
 [문제링크](https://leetcode.com/problems/employee-free-time/)
 
 ## 문제 설명
@@ -16,6 +18,7 @@ tag:
 각 직원마다 겹치지 않는 `Intervals`이 주어지며 `Intervals`은 정렬되어 있습니다.  
 모든 직원이 휴식시간(free-time)인 시간간격을 정렬하여 반환합니다.  
 **주의:** 내부의 객체는 배열이 아닌 Intervals입니다. 즉, `schedule[0][0].start = 1`, `schedule[0][0].end = 2`로 표현됩니다. 또한 [5, 5]와 같은 간격은 길이가 0이므로 답변에 포함하지 않습니다.
+
 ## 문제 풀이
 
 모든 직원들이 공통으로 쉬는 휴식시간을 구하는 것이기에 주어진 어떠한 interval에도 포함되지 않는 시간 간격을 구하면 됩니다.
@@ -26,9 +29,8 @@ tag:
 
 3. lastWorkTime 이란 변수를 선언합니다 이 변수는 현재까지의 작업들 중에 가장 큰 endTime을 기록하는 변수입니다.
    lastWorkTime의 시작값은 list[0].startTime입니다.
-  
-4. list에 들어간 interval을 순차적으로 체크합니다.
 
+4. list에 들어간 interval을 순차적으로 체크합니다.
 
 **체크하는 과정에는 아래와 같은 로직이 실행됩니다.**
 

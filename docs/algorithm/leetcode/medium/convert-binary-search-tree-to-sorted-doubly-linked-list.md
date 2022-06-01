@@ -9,12 +9,13 @@ tag:
   - TreeNode
 ---
 
+해당페이지는 2022년 3월 노션에서 마이그레이션 되었습니다.
+
 [문제링크](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)
 
 ## 문제 설명
 
-이진 검색 트리를 Sorted Doubly Linked List으로 변환해라. 
-
+이진 검색 트리를 Sorted Doubly Linked List으로 변환해라.
 
 ## 풀이 코드
 

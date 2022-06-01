@@ -8,6 +8,8 @@ tag:
   - hash
 ---
 
+해당페이지는 2022년 3월 노션에서 마이그레이션 되었습니다.
+
 [문제링크](https://leetcode.com/problems/verifying-an-alien-dictionary/)
 
 ## 문제 설명
@@ -29,7 +31,6 @@ order을 char로 잘라서 map안에 (알파벳,순서(0~25))로 입력
 words를 for문으로 순회하면서 해당 단어와 뒷 단어를 체크한다.
 각 단어를 char[] 로 분해 후 같은 자리에 있는 문자를 비교한다.
 해당 문자가 같을 때만 for문 계속 실행
-
 
 ## 풀이 코드
 

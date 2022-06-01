@@ -6,7 +6,10 @@ category:
   - Algorithm
 ---
 
+해당페이지는 2022년 3월 노션에서 마이그레이션 되었습니다.
+
 [문제 링크](https://leetcode.com/problems/minimum-knight-moves/)
+
 # 문제 설명
 
 infinity에서 +infinity까지의 좌표가 있는 무한 체스판이 있고, 체스판 [0, 0] 좌표에 나이트가 있다.
