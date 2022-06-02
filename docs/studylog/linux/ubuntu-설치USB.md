@@ -1,5 +1,5 @@
 ---
-index: 2
+order: 2
 icon: creative
 title: 우분투(Ubuntu)서버 설치USB 만들기
 category:

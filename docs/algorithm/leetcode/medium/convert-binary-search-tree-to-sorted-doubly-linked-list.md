@@ -1,5 +1,5 @@
 ---
-index: 1
+order: 1
 icon: creative
 title: Convert Binary Search Tree to Sorted Doubly Linked List
 category:

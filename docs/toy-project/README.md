@@ -1,5 +1,5 @@
 ---
-index: 1
+order: 1
 title: My Toy Project
 icon: config
 category:

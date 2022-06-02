@@ -1,5 +1,5 @@
 ---
-index: 6
+order: 6
 icon: creative
 title: 파티셔닝
 ---

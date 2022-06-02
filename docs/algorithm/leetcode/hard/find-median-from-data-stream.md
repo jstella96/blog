@@ -1,5 +1,5 @@
 ---
-index: 1
+order: 1
 icon: creative
 title: Find Median from Data Stream
 category:

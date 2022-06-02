@@ -1,5 +1,5 @@
 ---
-index: 4
+order: 4
 icon: creative
 title: this바인딩
 category:
@@ -10,7 +10,7 @@ editLink: false
 ::: tip GOAL
 Q. 자바스크립트에서의 this를 설명하시오
 :::
-해당페이지는 2022년 3월 노션에서 마이그레이션 되었습니다.  
+해당페이지는 2022년 3월 노션에서 마이그레이션 되었습니다.
 
 ## This
 
@@ -95,7 +95,6 @@ a.b.c(); = a.b["c"]
 - 기본적으로는 함수 내부에서와 동일
 - 콜백 함수 내부에서 this는 기본적으로는 전역객체로 보는게 맞으나. 지정하는 바에 따라서 달라질 수 있다.
 
-
 * 명시적으로 this를 바인딩하는 3가지 방법call , apply, bind 명령어
 
 ```js
@@ -120,7 +119,6 @@ func.apply(thisArg,[argsArray])
 func.bind(thisArg, [ arg2[, arg2[...]]])
 
 ```
-
 
 예제1 : callback에 명시적 this 바인딩
 
@@ -176,7 +174,7 @@ function Person(n, a) {
 var roy = Person("재남, 30"); // new 없이 -> 함수로써 호출
 console.log(window.name, window.age); // 전역객체에 값이 할당된다.
 
-var roy = new Person("재남, 30"); 
+var roy = new Person("재남, 30");
 /* new 있이 -> 호출 생성자 함수로써 호출, 새로생성될 Person의 인스턴스 객체 자신이 곧 this
  객체가 새로 만들어지면서 그 객체안에 name, age 프로퍼티가 생성되면서 값이 담긴다.
  console.log(roy);

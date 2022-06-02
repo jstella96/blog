@@ -1,5 +1,5 @@
 ---
-index: 1
+order: 1
 icon: creative
 title: Remove All Adjacent Duplicates in String II
 category:

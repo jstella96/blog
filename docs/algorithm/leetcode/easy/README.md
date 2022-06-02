@@ -1,5 +1,6 @@
 ---
 index: false
+order: false
 icon: selection
 title: easy
 pageInfo: false

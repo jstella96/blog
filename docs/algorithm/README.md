@@ -1,5 +1,5 @@
 ---
-index: false
+order: false
 icon: condition
 title: Algorithm
 pageInfo: false

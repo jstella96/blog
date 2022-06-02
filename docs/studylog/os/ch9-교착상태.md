@@ -1,5 +1,5 @@
 ---
-index: 9
+order: 9
 icon: creative
 title: 교착상태
 category:

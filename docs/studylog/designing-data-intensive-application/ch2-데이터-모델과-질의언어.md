@@ -1,5 +1,5 @@
 ---
-index: 2
+order: 2
 icon: creative
 title: 데이터 모델과 질의 언어
 category:

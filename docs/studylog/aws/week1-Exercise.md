@@ -1,5 +1,5 @@
 ---
-index: 2
+order: 2
 icon: creative
 title: Week 1 실습
 category:

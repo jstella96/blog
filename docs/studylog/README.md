@@ -1,5 +1,5 @@
 ---
-index: 1
+order: 1
 title: Study Log
 icon: read
 pageInfo: false

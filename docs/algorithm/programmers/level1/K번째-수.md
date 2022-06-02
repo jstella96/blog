@@ -1,5 +1,5 @@
 ---
-index: 1
+order: 1
 icon: creative
 title: K번째 수
 category:

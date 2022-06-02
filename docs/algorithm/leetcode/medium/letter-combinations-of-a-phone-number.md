@@ -1,5 +1,5 @@
 ---
-index: 1
+order: 1
 icon: creative
 title: Letter Combinations of a Phone Number
 category:

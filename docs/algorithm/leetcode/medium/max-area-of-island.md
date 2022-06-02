@@ -1,5 +1,5 @@
 ---
-index: 1
+order: 1
 icon: creative
 title: Max Area of Island
 category:

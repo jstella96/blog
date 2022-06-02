@@ -1,5 +1,6 @@
 ---
 index: false
+order: false
 icon: write
 title: JavaScript
 pageInfo: false

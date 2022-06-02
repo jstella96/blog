@@ -1,5 +1,5 @@
 ---
-index: false
+order: false
 title: 기출문제
 icon: selection
 pageInfo: false

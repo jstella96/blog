@@ -1,5 +1,5 @@
 ---
-index: 1
+order: 1
 icon: creative
 title: Minimum Number of Taps to Open to Water a Garden
 category:
