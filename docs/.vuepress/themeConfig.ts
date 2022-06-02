@@ -23,9 +23,11 @@ export default defineThemeConfig({
 
   // sidebar
   sidebar: sidebar,
-//© 2022 j.stellar powered by vue-press
-  footer: "",
+//
+  footer: "© 2022 j.stellar powered by vue-press",
 
+  copyright: false,
+  
   displayFooter: true,
   //"Author",, "ReadingTime"
   pageInfo: [ "Original", "Date", "Category", "Tag"], 
@@ -44,10 +46,10 @@ export default defineThemeConfig({
     // you can also use Waline -?
     comment: {
       type: "giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
+      repo: "jstella96/tech-blog",
+      repoId: "R_kgDOHC3Xyg",
       category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      categoryId: "DIC_kwDOHC3Xys4CPa5x",
     },
 
     mdEnhance: {
