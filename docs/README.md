@@ -8,9 +8,11 @@ tagline: Hi, I'm a junior developer✨
 actions:
   - text: Blog home 🏠
     link: /
+    type: primary
 
   - text: GitHub 😺
     link: https://github.com/jstella96
+    type: primary
 
 features:
   - title: Study Log
