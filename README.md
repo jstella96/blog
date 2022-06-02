@@ -1,1 +1,1 @@
-# J.Stella Tech Blog
+# J.Stella Blog
