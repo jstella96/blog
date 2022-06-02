@@ -1,7 +1,7 @@
 ---
 index: 2
 icon: creative
-title: ch2 데이터 모델과 질의 언어
+title: 데이터 모델과 질의 언어
 category:
   - IT서적
 editLink: false

@@ -1,7 +1,7 @@
 ---
 index: false
-icon: write
-title: AWS
+icon: lock
+title: Designing Data Intensive Application
 pageInfo: false
 comment: false
 editLink: false

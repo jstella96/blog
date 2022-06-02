@@ -28,8 +28,8 @@ export default defineHopeConfig({
   locales: {
     "/": {
       lang: "en-US",
-      title: "J.Stella Tech Blog",
-      description: "A demo for vuepress-theme-hope",
+      title: "J.Stella Blog",
+      description: "J.Stella Blog",
     },
   },
 

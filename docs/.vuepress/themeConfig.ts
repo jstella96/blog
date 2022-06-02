@@ -3,7 +3,7 @@ import navbar from "./navbar";
 import sidebar from "./sidebar";
 
 export default defineThemeConfig({
-  hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
+  hostname: "",
 
   author: {
     name: "j.stella",
@@ -32,7 +32,9 @@ export default defineThemeConfig({
 
   encrypt: {
     config: {
-      "/TIL/javascript/prototype.html": ["0218"],
+      "/studylog/designing-data-intensive-application": ["0218"],
+      "/studylog/aws": ["0218"],
+      "/studylog/javascript/prototype.html": ["0218"],
     },
   },
 

@@ -2,9 +2,6 @@
 index: 1
 icon: creative
 title: 신뢰성, 확장성,유지보수성을 가진 애플리케이션
-category:
-  - IT서적
-editLink: false
 ---
 
 ## Reliable, Scalable, and Maintainable Applications
@@ -37,7 +34,7 @@ editLink: false
 두 번째로는 점점 더 많은 애플리케이션이 단일 도구로는 더이상 데이터 처리와 저장 모두를 만족 시킬 수 없는 광범위한 요구사항을 가지고 있다, 대신 작업(work)을 단일 도구에서 효율적으로 수행할 수 있는 태스크(task)로 나누고 **다양한 도구들은 애플리케이션 코드를 이용해 서로 연결 한다.**
 예를 들어 아래 그림과 같이 전문검색서버의 경우 메인 데이터 베이스와 동기화된 캐시나 색인을 유지하는 것은 보통 애플리케이션 코드의 책임이다.
 
-![system_architecture 예시](./images/1-1system_architecture.PNG)  
+![system_architecture 예시
 참조: Data-Intensive Applications 5page
 
 **이제부터 개발자는 애플리케이션 개발자뿐만 아니라 데이터 시스템 설계자이기도 하다.**
