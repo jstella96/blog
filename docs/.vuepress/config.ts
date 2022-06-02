@@ -3,7 +3,6 @@ import { hopeTheme } from "vuepress-theme-hope";
 
 export default defineUserConfig({
   base: "/blog/",
-  dest: "./dist",
   title: "J.Stella Blog",
   description: "J.Stella Blog",
   theme: hopeTheme({
