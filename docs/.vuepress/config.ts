@@ -35,6 +35,8 @@ export default defineUserConfig({
     docsDir: "demo/src",
     copyright: false, 
     editLink:false,
+    lastUpdated:false,
+    contributors:false,
   //
     footer: "© 2022 j.stellar powered by vue-press",
 
