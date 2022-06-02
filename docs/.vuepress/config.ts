@@ -2,6 +2,15 @@ import { defineUserConfig } from "vuepress";
 import { hopeTheme } from "vuepress-theme-hope";
 
 export default defineUserConfig({
+  head: [
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Noto+Sans+Display&family=Noto+Sans+KR&display=swap",
+      },
+    ],
+  ],
   base: "/blog/",
   title: "J.Stella Blog",
   description: "J.Stella Blog",
@@ -44,7 +53,7 @@ export default defineUserConfig({
     
     displayFooter: true,
     //"Author",, "ReadingTime"
-    pageInfo: [ "Original", "Date", "Category", "Tag"], 
+    pageInfo: [  "Date", "Category", "Tag"], 
 
     encrypt: {
       config: {
