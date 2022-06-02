@@ -27,7 +27,7 @@ export default defineHopeConfig({
 
   locales: {
     "/": {
-      lang: "en-US",
+      lang: "ko",
       title: "J.Stella Blog",
       description: "J.Stella Blog",
     },
