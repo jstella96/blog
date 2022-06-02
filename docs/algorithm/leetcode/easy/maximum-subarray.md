@@ -7,6 +7,8 @@ category:
 tag: false
 ---
 
+해당페이지는 2022년 3월 노션에서 마이그레이션 되었습니다.
+
 [문제링크](https://leetcode.com/problems/maximum-subarray/)
 
 ## 문제 설명
@@ -23,8 +25,8 @@ Explanation: [4,-1,2,1] has the largest sum = 6.
 
 ## 문제 풀이
 
-앞에서 부터 더하다가 현재 인덱스가 앞선 값보다 크면 currentSum 값 업데이트,
-currentSum 정의 : 현재 자리를 포함하는 최대 subarray고 그 정의에서 만들어 졌으니 정답이 있을 수 밖에 없다.
+앞에서 부터 더하다가 현재 인덱스가 앞선 값보다 크면 currentSum 값 업데이트  
+currentSum 정의 : 현재 자리를 포함하는 최대 subarray이다. 이 정의에서 만들어 졌으니 정답이 있을 수 밖에 없다.
 
 ## 풀이 코드
 

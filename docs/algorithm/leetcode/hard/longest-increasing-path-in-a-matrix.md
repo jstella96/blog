@@ -7,6 +7,8 @@ category:
 tag: false
 ---
 
+해당페이지는 2022년 3월 노션에서 마이그레이션 되었습니다.
+
 [문제링크](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
 
 ## 문제 설명
@@ -22,8 +24,6 @@ Explanation: The longest increasing path is [1, 2, 6, 9].
 ```
 
 ## 문제 풀이
-
-[풀이방법]
 
 dfs: 가짓수를 다 계산해서 끝 값을 반환한다.
 memo을 이용해서 그 지점에서 갈 수 있는 최대 값을 저장한다.

@@ -4,10 +4,9 @@ icon: creative
 title: Generate Parentheses
 category:
   - Algorithm
-tag:
-  - TreeNode
-  - BST
 ---
+
+해당페이지는 2022년 3월 노션에서 마이그레이션 되었습니다.
 
 [문제링크](https://leetcode.com/problems/generate-parentheses/)
 

@@ -8,6 +8,8 @@ tag:
   - queue
 ---
 
+해당페이지는 2022년 3월 노션에서 마이그레이션 되었습니다.
+
 [문제링크](https://leetcode.com/problems/flatten-nested-list-iterator/)
 
 ## 문제 설명
@@ -17,14 +19,15 @@ tag:
     while (i.hasNext()) v[f()] = i.next();
     Input: nestedList = [[1,1],2,[1,1]]
     Output: [1,1,2,1,1]
-    위 식이 성립되게 hasNext() 와 next()를 오버라이딩 하는 문제
-
-    boolean isInteger();
-    Integer getInteger();
-    List<NestedInteger> getList();
-
-    위 함수 사용 가능
 ```
+
+위 식이 성립되게 hasNext() 와 next()를 오버라이딩 하는 문제
+
+`boolean isInteger()`  
+`Integer getInteger()`  
+`List<NestedInteger> getList()`
+
+위 함수 사용 가능
 
 ## 입출력 예시
 
@@ -35,7 +38,7 @@ Output: [1,4,6]
 
 ## 문제 풀이
 
-    output 값을 queue에 담아두고 hasnext 와 next에 size/poll 로 판별하면 됨
+output 값을 queue에 담아두고 hasnext 와 next에 size/poll 로 판별하면 됨
 
 ## 풀이 코드
 

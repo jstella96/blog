@@ -3,7 +3,7 @@ home: true
 icon: home
 title: Home
 heroImage: /myLogo.png
-heroText: J.Stella Tech Blog
+heroText: J.Stella Blog
 tagline: Hi, I'm a junior developer✨
 actions:
   - text: Blog home 🏠
@@ -13,10 +13,10 @@ actions:
     link: https://github.com/jstella96
 
 features:
-  - title: Today I Learned
+  - title: Study Log
     icon: read
     details: 공부한 내용을 기록하는 공간입니다
-    link: /TIL/
+    link: /studylog/
 
   - title: Algorithm
     icon: condition

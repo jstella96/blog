@@ -8,13 +8,11 @@ tag:
   - Heap
 ---
 
+해당페이지는 2022년 3월 노션에서 마이그레이션 되었습니다.
+
 [문제링크](https://leetcode.com/problems/employee-free-time/)
 
 ## 문제 설명
-
-> We are given a list `schedule` of employees, which represents the working time for each employee.
-> Each employee has a list of non-overlapping `Intervals`, and these intervals are in sorted order.
-> Return the list of finite intervals representing common, positive-length free time for all employees, also in sorted order.
 
 직원 개개인의 근무 시간을 나타내는 이중배열 `schedule`이 주어집니다.
 각 직원마다 겹치지 않는 `Intervals`이 주어지며 `Intervals`은 정렬되어 있습니다.  
@@ -23,25 +21,24 @@ tag:
 
 ## 문제 풀이
 
-모든 직원들이 공통으로 쉬는 휴식시간을 구하는 것이기에 주어진 어떠한 interval에도 포함되지 않는 시간 간격을 구하면 된다.
-먼저 모든 interval을 list에 넣고, 시작시간으로 정렬한다.
+모든 직원들이 공통으로 쉬는 휴식시간을 구하는 것이기에 주어진 어떠한 interval에도 포함되지 않는 시간 간격을 구하면 됩니다.
 
-이후 interval의 start가 lastTime보다 작다면 이전에 행한 work 가 끝나기 전에 해당 index의 작업이 시작되었다는 것입니다.
+1. 먼저 모든 interval을 list에 넣고, 시작시간으로 정렬합니다.
 
-lastWorkTime 이란 변수를 선언합니다 이 변수는 현재까지의 작업들 중에 가장 큰 endTime을 기록하는 변수입니다.
-list에 들어간 interval을 순차적으로 체크합니다.
+2. 이후 interval의 start가 lastTime보다 작다면 이전에 행한 work 가 끝나기 전에 해당 index의 작업이 시작되었다는 것입니다.
 
-- lastWorkTime의 시작값은 list[0].startTime입니다.
+3. lastWorkTime 이란 변수를 선언합니다 이 변수는 현재까지의 작업들 중에 가장 큰 endTime을 기록하는 변수입니다.
+   lastWorkTime의 시작값은 list[0].startTime입니다.
 
-체크하는 과정에는 아래와 같은 로직이 실행됩니다.
-interval의 startTime이 lastWorkTime보다 작다면 이전에 행한 work 가 끝나기 전에 해당 index의 작업이 시작되었다는 것입니다. 즉 작업시간이 겹쳐있다는 것입니다.
-이부분을 while문을 통해 표현할 수 있습니다.
-만약 interval.startTime < lastWorkTime  
-이라면 index +1 을 하여 다음 interval로 넘어가고 lastWorkTime = Math.max(lastWorkTime,interval.endTime)을
-통해 현재 작업한 interval중 가장 끝 종료시간을 구합니다.
+4. list에 들어간 interval을 순차적으로 체크합니다.
 
-이 while 문을 빠져 나왔다는 것은 다음 interval.startTime이 이전까지의 작업들 중 가장 끝에 있는 종료시각보다 더 크다는 것을 의미합니다(=lastWorkTime). 즉 [lastWorkTime, interval.startTime ] 우리가 찾는 작업자들의 휴식시간입니다. 이 값을 반환값 기록해두고  
-lastWorkTime값에 interval.startTime을 넣어주어 다음 반복문이 실행 될 수 있게 합니다.
+**체크하는 과정에는 아래와 같은 로직이 실행됩니다.**
+
+interval의 startTime이 lastWorkTime보다 작다면 이전에 행한 work 가 끝나기 전에 해당 index의 작업이 시작되었다는 것입니다. 즉 작업시간이 겹쳐있다는 것을 의미합니다. 이 부분을 while문을 통해 표현할 수 있습니다.
+만약 `interval.startTime < lastWorkTime`
+이라면 index +1 을 하여 다음 interval로 넘어가고 `lastWorkTime = Math.max(lastWorkTime,interval.endTime)`을 통해 현재 작업한 interval중 가장 끝 종료시간을 구합니다.
+
+이 while 문을 빠져 나왔다는 것은 다음 interval.startTime이 이전까지의 작업들 중 가장 끝에 있는 종료시각보다 더 크다는 것을 의미합니다(=lastWorkTime). 즉 [lastWorkTime, interval.startTime] 우리가 찾는 작업자들의 휴식시간입니다. 이 값을 반환값 기록해두고 lastWorkTime값에 interval.startTime을 넣어주어 다음 반복문이 실행 될 수 있게 합니다.
 
 ## 풀이 코드
 

@@ -5,9 +5,11 @@ title: Tweet Counts Per Frequency
 category:
   - Algorithm
 tag:
-  - TreeNode
-  - BinarySearch
+  - tree-node
+  - binary-search
 ---
+
+해당페이지는 2022년 3월 노션에서 마이그레이션 되었습니다.
 
 [문제링크](https://leetcode.com/problems/tweet-counts-per-frequency/)
 
@@ -24,13 +26,13 @@ tag:
 
 분석에 도움이 되는 API를 설계하고 구현합니다.
 
-- TweetCounts() TweetCounts 개체를 초기화합니다.
-- void recordTweet(String tweetName, int time) 기록된 시간(초 단위)의 tweetName을 저장합니다.
-- List<Integer> getTweetCountsPerFrequency(String freq, String tweetName, int startTime, int endTime) 주어진 기간 [startTime, endTime](초) 동안 각 시간 청크에서 tweetName이 있는 트윗 수를 나타내는 정수 목록을 반환합니다. freq는 "분", "시" 또는 "일" 중 하나이며 각각 분, 시간 또는 일의 빈도를 나타냅니다.
+- `TweetCounts()` : TweetCounts 개체를 초기화합니다.
+- `void recordTweet(String tweetName, int time)` : 기록된 시간(초 단위)의 tweetName을 저장합니다.
+- `List<Integer> getTweetCountsPerFrequency(String freq, String tweetName, int startTime, int endTime)`: 주어진 기간 [startTime, endTime](초) 동안 각 시간 청크에서 tweetName이 있는 트윗 수를 나타내는 정수 목록을 반환합니다. freq는 "분", "시" 또는 "일" 중 하나이며 각각 분, 시간 또는 일의 빈도를 나타냅니다.
 
 ## 문제 풀이
 
-기본적은 바이너리 서치 문제 맵안에서 바이나리 서치한다.
+기본적인 바이너리 서치 문제이다. Map안에서 바이나리 서치로 값을 찾는다.
 
 ## 풀이 코드
 
@@ -71,10 +73,5 @@ class TweetCounts {
     }
 }
 
-/**
- * Your TweetCounts object will be instantiated and called as such:
- * TweetCounts obj = new TweetCounts();
- * obj.recordTweet(tweetName,time);
- * List<Integer> param_2 = obj.getTweetCountsPerFrequency(freq,tweetName,startTime,endTime);
- */
+
 ```
