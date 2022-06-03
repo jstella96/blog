@@ -37,6 +37,14 @@ backtotop: false
 **참고강의:**  
 [따라하며 배우는 IT - 네트워크 기초(YouTube)](https://www.youtube.com/playlist?list=PL0d8NnikouEWcF1jJueLdjRIC4HsUlULi)
 
+### 자료구조
+
+:bulb: 공부 목적: 기본적인 컴퓨터 공학 기초 학습  
+**참고서적:**  
+파이썬 알고리즘 인터뷰(책만)
+
+**with 강남스터디:family:**
+
 ## IT 서적 스터디
 
 ### System Design Interview(대규모 시스템 설계기초)
@@ -45,7 +53,8 @@ backtotop: false
 
 > 유투브는 어떻게 설계되는지에 대한 궁금증으로 시작된 스터디
 
-**with 강남스터디:family:**  
+**with 강남스터디:family:**
+
 스터디 기간: 2021년 09월 ~ 2022년 12월  
 스터디 시간: 토요일 09시-12시까지 오프라인 모임  
 스터디 방법: 한 주에 1-2Chapter씩 각자 공부한 후 만나서 토론
@@ -73,4 +82,5 @@ backtotop: false
 
 ### AWS - SAA
 
-자격증 공부 기간 : 2022년 4월~
+자격증 공부 기간 : 2022년 4월~  
+**with 강남스터디:family:**
