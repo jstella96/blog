@@ -1,6 +1,6 @@
 ---
 order: 1
-icon: creative
+icon: lock
 title: 신뢰성, 확장성, 유지보수성
 category: IT서적
 tag:
