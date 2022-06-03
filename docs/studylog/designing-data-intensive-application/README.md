@@ -1,7 +1,7 @@
 ---
 index: false
 order: false
-icon: lock
+icon: write
 title: Designing Data Intensive Application
 pageInfo: false
 comment: false

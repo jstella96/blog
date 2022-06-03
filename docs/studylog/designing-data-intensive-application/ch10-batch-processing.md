@@ -1,6 +1,6 @@
 ---
 order: 10
-icon: creative
+icon: lock
 title: 일괄처리
 category:
   - IT서적
