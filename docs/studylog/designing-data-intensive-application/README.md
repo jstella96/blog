@@ -1,4 +1,5 @@
 ---
+index: false
 order: false
 icon: lock
 title: Designing Data Intensive Application
