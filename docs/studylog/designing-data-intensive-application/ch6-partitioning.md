@@ -1,6 +1,6 @@
 ---
 order: 6
-icon: creative
+icon: lock
 title: 파티셔닝
 ---
 

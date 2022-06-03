@@ -57,7 +57,13 @@ export default defineUserConfig({
 
     encrypt: {
       config: {
-        "/studylog/designing-data-intensive-application": ["0218"],
+        "/studylog/designing-data-intensive-application/ch1-reliable-scalable-maintainable-applications.html": ["0218"],
+        "/studylog/designing-data-intensive-application/ch2-data-models-and-query-languages.html": ["0218"],
+        "/studylog/designing-data-intensive-application/ch5-replication.html": ["0218"],
+        "/studylog/designing-data-intensive-application/ch6-partitioning.html": ["0218"],
+        "/studylog/designing-data-intensive-application/ch7-transactions.html": ["0218"],
+        "/studylog/designing-data-intensive-application/ch10-batch-processing.html": ["0218"],
+        "/studylog/designing-data-intensive-application/ch11-stream-processing.html": ["0218"],
         "/studylog/aws": ["0218"],
         "/studylog/javascript/prototype.html": ["0218"],
       },

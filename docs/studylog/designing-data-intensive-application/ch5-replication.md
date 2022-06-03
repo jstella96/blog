@@ -1,6 +1,6 @@
 ---
 order: 5
-icon: creative
+icon: lock
 title: 복제
 category:
   - IT서적
