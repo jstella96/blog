@@ -57,7 +57,6 @@ export default defineUserConfig({
 
     encrypt: {
       config: {
-        "/studylog/designing-data-intensive-application/ch5-replication.html": ["0218"],
         "/studylog/designing-data-intensive-application/ch6-partitioning.html": ["0218"],
         "/studylog/designing-data-intensive-application/ch7-transactions.html": ["0218"],
         "/studylog/designing-data-intensive-application/ch10-batch-processing.html": ["0218"],
