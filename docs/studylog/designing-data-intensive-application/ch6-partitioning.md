@@ -1,6 +1,6 @@
 ---
 order: 6
-icon: lock
+icon: creative
 title: 파티셔닝
 category:
   - IT서적
