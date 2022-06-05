@@ -213,3 +213,7 @@ Object.prototype.toString() 얘가 호출된다/1
 스코프체인이랑 개념이 같다. 가장 먼저 자기자신부터 찾고 가장 먼저 찾아진 메서드만 실행하고 그보다 더 멀리 있는 체인까지는 찾아가지 않는다.
 
 - 인스턴스에는 메서드가 없음에도 불구 하고 [[prototype]]이라는 매개체 덕분에 생성자 함수의 prototype에 있는 메서드를 자신의 것처럼 쓸 수 있다. 또한 [[prototype]] 으로 이어진 각 prototype 들에 모두 접근할수있는 것을 일컬어 프로토 타입 체인이라고 한다.
+
+## Reference
+
+[코어 자바스크립트(인프런)](https://www.inflearn.com/course/%ED%95%B5%EC%8B%AC%EA%B0%9C%EB%85%90-javascript-flow/dashboard)
