@@ -22,9 +22,9 @@ backtotop: false
 
 ## CS
 
-### Operating System
+### :bulb: Operating System
 
-:bulb: 공부 목적: 기본적인 컴퓨터 공학 기초 학습  
+**공부 목적**: 기본적인 컴퓨터 공학 기초 학습  
 **참고강의:**  
 [김덕수 교수님 운영체제(한국기술교육대학교)](https://www.youtube.com/playlist?list=PLBrGAFAIyf5rby7QylRc6JxU5lzQ9c4tN)  
 [컴퓨터 공학 올인원(패스트 캠퍼스)](https://fastcampus.co.kr/dev_online_computer)  
@@ -32,15 +32,15 @@ backtotop: false
 운영체제(한빛미디어)  
 운영체제와 정보기술의 원리(이화여자대학교)
 
-### Network
+### :bulb: Network
 
-:bulb: 공부 목적: 기본적인 컴퓨터 공학 기초 학습  
+**공부 목적**: 기본적인 컴퓨터 공학 기초 학습  
 **참고강의:**  
 [따라하며 배우는 IT - 네트워크 기초(YouTube)](https://www.youtube.com/playlist?list=PL0d8NnikouEWcF1jJueLdjRIC4HsUlULi)
 
-### 자료구조
+### :bulb: 자료구조
 
-:bulb: 공부 목적: 기본적인 컴퓨터 공학 기초 학습  
+**공부 목적**: 기본적인 컴퓨터 공학 기초 학습  
 **참고서적:**  
 파이썬 알고리즘 인터뷰(책만)
 
@@ -48,9 +48,9 @@ backtotop: false
 
 ## IT 서적 스터디
 
-### System Design Interview(대규모 시스템 설계기초)
+### :bulb: System Design Interview(대규모 시스템 설계기초)
 
-:bulb: 공부 목적: 대규모 시스템 설계 사례 익히며 시스템 설계가 실무적으로는 어떻게 이루어지는지 파악하기 및 시스템 디자인 기초 다지기
+**공부 목적**: 대규모 시스템 설계 사례 익히며 시스템 설계가 실무적으로는 어떻게 이루어지는지 파악하기 및 시스템 디자인 기초 다지기
 
 > 유투브는 어떻게 설계되는지에 대한 궁금증으로 시작된 스터디
 
@@ -60,9 +60,9 @@ backtotop: false
 스터디 시간: 토요일 09시-12시까지 오프라인 모임  
 스터디 방법: 한 주에 1-2Chapter씩 각자 공부한 후 만나서 토론
 
-### designing data intensive applications(데이터 중심 애플리케이션 설계)
+### :bulb: designing data intensive applications(데이터 중심 애플리케이션 설계)
 
-:bulb: 공부 목적: 데이터 처리에 대한 fundamental한 지식 습득
+**공부 목적**: 데이터 처리에 대한 fundamental한 지식 습득
 
 > 오늘날 많은 애플리케이션은 계산 중심과는 다르게 데이터 중심 적이다.  
 > 이제부터 개발자는 애플리케이션 개발자 뿐만 아니라 데이터 시스템 설계자 이기도 하다.
