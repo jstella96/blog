@@ -187,3 +187,7 @@ var roy = new Person("재남, 30");
 **메서드 호출시** : 메서드 호출 주체(메서드명 앞,.앞)  
 **callback 호출시** : 기본적으로 함수내부에서와 동일, 콜백함수를 어떤식으로 처리하는 지에 따라서 얼마든지 달라질 수 있다. 그런 경우에도 bind 명령등을 통해서 사용자가 직접 this를 명시할 수 있다.  
 **생성자 함수 호출시**: 인스턴스가 곧 this다
+
+## Reference
+
+[코어 자바스크립트(인프런)](https://www.inflearn.com/course/%ED%95%B5%EC%8B%AC%EA%B0%9C%EB%85%90-javascript-flow/dashboard)
