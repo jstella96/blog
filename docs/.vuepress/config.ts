@@ -49,8 +49,6 @@ export default defineUserConfig({
   //
     footer: "© 2022 j.stellar powered by vue-press",
 
-  
-    
     displayFooter: true,
     //"Author",, "ReadingTime"
     pageInfo: [  "Date", "Category", "Tag"], 
@@ -61,8 +59,7 @@ export default defineUserConfig({
         "/studylog/javascript/prototype.html": ["0218"],
       },
     },
-    provider: "Giscus",
-    comment:true,
+
     plugins: {
       blog: false,
       // you can also use Waline -?
