@@ -62,6 +62,7 @@ export default defineUserConfig({
       },
     },
     provider: "Giscus",
+    comment:true,
     plugins: {
       blog: false,
       // you can also use Waline -?
