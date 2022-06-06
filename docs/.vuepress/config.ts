@@ -61,10 +61,9 @@ export default defineUserConfig({
         "/studylog/javascript/prototype.html": ["0218"],
       },
     },
-
+    provider: "Giscus",
     plugins: {
       blog: false,
-      
       // you can also use Waline -?
       comment: {
         type: "giscus",
