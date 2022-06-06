@@ -49,8 +49,6 @@ export default defineUserConfig({
   //
     footer: "© 2022 j.stellar powered by vue-press",
 
-  
-    
     displayFooter: true,
     //"Author",, "ReadingTime"
     pageInfo: [  "Date", "Category", "Tag"], 
