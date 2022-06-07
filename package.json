@@ -7,10 +7,10 @@
     "docs:build": "vuepress build docs",
     "docs:clean-dev": "vuepress dev docs --clean-cache",
     "docs:dev": "vuepress dev docs",
-    "gh-deploy":"git subtree push --prefix dist origin gh-pages"
+    "gh-deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "devDependencies": {
-    "vuepress": "^2.0.0-beta.36",
-    "vuepress-theme-hope": "^2.0.0-beta.22"
+    "vuepress": "^2.0.0-beta.46",
+    "vuepress-theme-hope": "^2.0.0-beta.79"
   }
 }
