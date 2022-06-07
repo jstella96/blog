@@ -63,8 +63,9 @@ export default defineUserConfig({
     plugins: {
       blog: false,
       // you can also use Waline -?
+      sitemap:{ changefreq: "always"},
       comment: {
-        type: "giscus",
+        provider:"Giscus",
         repo: "jstella96/tech-blog",
         repoId: "R_kgDOHC3Xyg",
         category: "Announcements",
