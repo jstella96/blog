@@ -59,11 +59,11 @@ export default defineUserConfig({
         "/studylog/javascript/prototype.html": ["0218"],
       },
     },
-
+    comment: false,
     plugins: {
       blog: false,
       // you can also use Waline -?
-      sitemap:false,
+      /*
       comment: {
         provider:"Giscus",
         repo: "jstella96/tech-blog",
@@ -71,7 +71,7 @@ export default defineUserConfig({
         category: "Announcements",
         categoryId: "DIC_kwDOHC3Xys4CPa5x",
       },
-
+      */
       mdEnhance: {
         enableAll: true,
         presentation: {
