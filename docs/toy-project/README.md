@@ -27,7 +27,9 @@ backtotop: false
 
 ### 프로젝트1 : 바닐라 자바스크립트로 만드는 SPA <Badge text="개발중" type="warning" />
 
-:cupid:**GitHub** : [바로가기 클릭](https://github.com/jstella96/book-journal)
+![book-journal-project](./img/book-journal.png)
+:cupid:**GitHub** : [바로가기 클릭](https://github.com/jstella96/book-journal)  
+:computer: **데모 페이지** : [바로가기 클릭](https://jstella96.github.io/book-journal/)
 
 ## 예비 개발자 :hatching_chick:
 
@@ -35,7 +37,7 @@ backtotop: false
 
 ### 프로젝트1 : 개발자를 위한 취업 플랫폼 DOTORI
 
-![blogProject](./img/dotori-project.png)
+![dotori-project](./img/dotori-project.png)
 
 :movie_camera:**시연 영상** : [바로가기 클릭](https://www.youtube.com/watch?v=RJfIN3_Uwu0)  
 :cupid:**Stack** : React, Spring, Mysql
@@ -44,7 +46,7 @@ backtotop: false
 
 ### 프로젝트2 : 2D 던전게임
 
-![blogProject](./img/game-project-1-a.png)
+![game-project-1](./img/game-project-1-a.png)
 
 :movie_camera::**시연 영상** : [바로가기 클릭](https://www.youtube.com/watch?v=S76dEhq3IyE)  
 😺**GitHub** : [바로가기 클릭](https://github.com/jstella96/dungeon-game)  
@@ -54,7 +56,7 @@ backtotop: false
 
 ### 프로젝트3 : IT STUDY 게임
 
-![blogProject](./img/geme-project-2.png)
+![geme-project-2](./img/geme-project-2.png)
 :movie_camera:**시연 영상** : [바로가기 클릭](https://www.youtube.com/watch?v=S76dEhq3IyE#t=2m17s)  
 😺**GitHub** : [바로가기 클릭](https://github.com/jstella96/it-study-game)  
 :cupid:**Stack** : Spring, JSP, Mysql
@@ -63,7 +65,7 @@ backtotop: false
 
 ### 프로젝트4 : 개인 블로그 AllStar Universal
 
-![blogProject](./img/blog-project.png)
+![blog-project](./img/blog-project.png)
 :movie_camera:**시연 영상** : [바로가기 클릭](https://www.youtube.com/watch?v=cR2xTDW_EFA)  
 😺**GitHub** : [바로가기 클릭](https://github.com/jstella96/allstar-universal-blog)  
 :cupid:**Stack** : Spring, JSP, Oracle
@@ -72,7 +74,7 @@ backtotop: false
 
 ### 프로젝트5 : 주소록 프로젝트
 
-![blogProject](./img/address-project.png)
+![address-project](./img/address-project.png)
 
 😺**GitHub** : [바로가기 클릭](https://github.com/jstella96/addressbook)  
 :cupid:**Stack** : JAVA
