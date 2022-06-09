@@ -81,7 +81,7 @@ export default defineUserConfig({
         },
       },
       pwa: {
-        favicon: "/myLogo.ico",
+        favicon: "/blog/myLogo.ico",
         manifest: {
           theme_color:"#BD8F8F", 
         }
