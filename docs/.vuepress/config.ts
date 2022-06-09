@@ -24,7 +24,9 @@ export default defineUserConfig({
     
     sidebar: {
       "/studylog/": "structure",
-      "/algorithm/":"structure"
+      "/algorithm/":"structure",
+      "/": false,
+      "/toy-porject":false
     },
 
     iconAssets: "iconfont",
