@@ -27,7 +27,7 @@ backtotop: false
 
 ### 프로젝트1 : 바닐라 자바스크립트로 만드는 SPA <Badge text="개발중" type="warning" />
 
-![book-journal-project](./img/book-journal.png)
+![book-journal-project](./img/book-journal-1.png)
 :cupid:**GitHub** : [바로가기 클릭](https://github.com/jstella96/book-journal)  
 :computer: **데모 페이지** : [바로가기 클릭](https://jstella96.github.io/book-journal/)
 
