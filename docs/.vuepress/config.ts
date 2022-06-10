@@ -59,7 +59,7 @@ export default defineUserConfig({
 
     encrypt: {
       config: {
-        // "/studylog/aws": ["0218"],
+        "/studylog/aws": ["0218"],
         "/studylog/javascript/prototype.html": ["0218"],
       },
     },
