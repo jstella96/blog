@@ -9,8 +9,7 @@ tag:
 editLink: false
 ---
 
-Domain 2. 고성능 아키텍처 설계(Design High Performing Architectures) part 3
-  
+
 AWS-SAA 자격증 항목을 기준으로 AWS를 공부 합니다. 각 항목의 의미를 살펴보고 중점사항을 파악하는 것을 목표로 합니다.각 항목별 이론/실습으로 학습합니다.
 
 ::: details 상세 영역 ( 출처: aws certification 홈페이지 )
@@ -37,7 +36,8 @@ AWS-SAA 자격증 항목을 기준으로 AWS를 공부 합니다. 각 항목의 
 
 :::
 
-## 주요관점
+## Domain 2 고성능 아키텍처 설계
+## 워크로드를 위한 고성능 네트워킹 솔루션 선택
 
 - 성능 요구 사항을 충족하는 데 적절한 AWS 연결 옵션을 선택합니다
 

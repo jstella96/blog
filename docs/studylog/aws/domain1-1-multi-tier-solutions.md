@@ -9,7 +9,7 @@ tag:
 editLink: false
 ---
 
-Domain 1. 복원력을 갖춘 아키텍처 설계(design-resilient-architectures) part 1
+
   
 AWS-SAA 자격증 항목을 기준으로 AWS를 공부 합니다. 각 항목의 의미를 살펴보고 중점사항을 파악하는 것을 목표로 합니다.각 항목별 이론/실습으로 학습합니다.
 
@@ -42,9 +42,8 @@ AWS-SAA 자격증 항목을 기준으로 AWS를 공부 합니다. 각 항목의 
 
 :::
 
-
-## 주요 관점
-
+## Domain 1 복원력을 갖춘 아키텍처 설계
+## 멀티 티어 아키텍처 솔루션 설계
 - **액세스 패턴을 기반으로 솔루션 설계를 결정합니다**
 
   - 이 항목은 누가, 무엇을 특정 아키텍처에 액세스해야 하는지, 어떻게 액세스할지에 대한 설계를 의미합니다. 솔루션을 설계할 때 연결과 요청이 어디에서 오는지 생각해야 합니다.
@@ -71,7 +70,6 @@ AWS-SAA 자격증 항목을 기준으로 AWS를 공부 합니다. 각 항목의 
 ## 키워드
 ::: tip 배치그룹
 
-[관련 AWS 문서링크](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/placement-groups.html)
 
 배치그룹(placement groups)이란?
 EC2 서비스는 모든 인스턴스가 기본 하드웨어 전반에 분산되도록 하여 상호 관련 오류의 위험을 줄입니다. 워크로드 요구 사항을 충족하기 위해 배치 그룹을 사용하여 상호 의존적 인스턴스 그룹의 배치에 영향을 줄 수 있습니다.
@@ -82,15 +80,42 @@ EC2 서비스는 모든 인스턴스가 기본 하드웨어 전반에 분산되�
 
 - 분산(Spread) – 소규모의 인스턴스 그룹을 다른 기본 하드웨어로 분산하여 상호 관련 오류를 줄입니다.
 
+[관련 AWS 문서링크](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/placement-groups.html)
 :::
 
 ::: tip S3 vs S3 Glacier
 
-[관련 AWS 문서링크](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html)
+S3(Simple Storage Service) : AWS 에서 제공하는 99.99999999999%의 안정성을 가진 저장공간
+* S3 Standard : 자주 엑세스 하는 데이터 보관
+* S3 Standard-IA / S3 One Zone-IA : 자주 엑세스하지 않는 데이터 보관
+* S3 Glacier : 분기별,연간 1회 정도로 자주 엑세스 되지 않는 데이터 보관, 가장 저렴하게 데이터 보관 가능. Instant Retrieval , Flexible Retrieval,  Deep Archive 로 나뉨
 
-Amazon S3는 다양한 사용 사례에 맞게 설계된 다양한 스토리지 클래스를 제공합니다. 예를 들어, 미션 크리티컬 프로덕션 데이터를 자주 액세스할 수 있도록 S3 Standard에 저장하고, 자주 액세스하지 않는 데이터를 S3 Standard-IA 또는 S3 One Zone-IA에 저장하여 비용을 절감하고, S3 Glacier Instant Retrieval에서 가장 저렴한 비용으로 데이터를 아카이브할 수 있습니다. S3 Glacier Flexible Retrieval 및 S3 Glacier Deep Archive.
+Glacier에서는 객체를 인출하는 데는 ms ~ 수 시간이 소요될 수 있지만, S3 버킷에서는 거의 즉각적으로 객체를 인출할 수 있다. Glacier는 저장된 데이터를 거의 인출하지 않고 저렴하게 사용할 수 있는 장기 보관용 스토리지이다.
+
+[관련 AWS 문서링크 : S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html)
+[관련 AWS 문서링크 : Glacier](https://aws.amazon.com/ko/s3/storage-classes/glacier/)
 
 :::
+
+::: tip Elastic Block Store(EBS)
+
+  * 확장 가능한 고성능 블록 스토리지 서비스로 EC2용으로 설계 
+  * 인스턴스 수명과 관계없이 영구적인 데이터 보관이 필요한 경우
+  * 무중단 용량 증가, 스냅샷, 데이터에 빠른 엑세스 등의 장점
+  - 4가지 유형이 있다. 
+    * 범용 SSD 볼륨: 다양한 트랜잭션 워크로드를 위한 가격과 성능의 균형을 유지합니다. 이러한 볼륨은 부트 볼륨, 중간 규모의 단일 인스턴스 데이터베이스, 개발 및 테스트 환경과 같은 사용 사례에 적합합니다.
+
+    * 프로비저닝된 IOPS SSD 볼륨(io1 및 io2)은 스토리지 성능과 일관성에 민감한 I/O 집약적 워크로드의 요구 사항을 충족하도록 설계되었습니다. 이러한 옵션은 볼륨을 생성할 때 지정하는 일관된 IOPS 속도를 제공합니다. 따라서 예측 가능한 방식으로 인스턴스당 수만 IOPS까지 확장할 수 있습니다.
+
+    * 처리량 최적화 HDD 볼륨 : 저비용 마그네틱 스토리지를 제공합니다. 이러한 볼륨은 데이터 웨어하우스, 로그 처리 같은 대용량 순차 워크로드에 적합합니다.
+
+    * 콜드 HDD 볼륨: 저비용 마그네틱 스토리지를 제공합니다. 이 볼륨은 순차적인 대용량 콜드 데이터 워크로드에 적합합니다. 데이터에 자주 액세스할 필요가 없고 비용을 절약해야 한다면 저렴한 블록 스토리지로 이러한 볼륨이 적합합니다.
+
+
+[관련 AWS 문서링크 : EBS](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/AmazonEBS.html)
+
+:::
+
 
 ## Question
 

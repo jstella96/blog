@@ -8,8 +8,7 @@ tag:
   - SAA-C02 자격증
 editLink: false
 ---
-Domain 4 : 비용에 최적화된 아키텍처 설계(Design Cost Optimized Architectures) part 3
-  
+
 AWS-SAA 자격증 항목을 기준으로 AWS를 공부 합니다. 각 항목의 의미를 살펴보고 중점사항을 파악하는 것을 목표로 합니다.각 항목별 이론/실습으로 학습합니다.
 
 ::: details 상세 영역 ( 출처: aws certification 홈페이지 )
@@ -34,7 +33,9 @@ AWS-SAA 자격증 항목을 기준으로 AWS를 공부 합니다. 각 항목의 
 
 :::
 
-## 주요관점
+
+## Domain 4 : 비용에 최적화된 아키텍처 설계
+## 비용에 최적화된 네트워크 아키텍처 설계
 
 **세부영역**
 

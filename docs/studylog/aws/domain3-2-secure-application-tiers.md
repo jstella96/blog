@@ -8,8 +8,7 @@ tag:
   - SAA-C02 자격증
 editLink: false
 ---
-Domain 3 : 안전한 애플리케이션 및 아키텍처 설계(Design Secure Applications And Architectures) part 2
-  
+
 AWS-SAA 자격증 항목을 기준으로 AWS를 공부 합니다. 각 항목의 의미를 살펴보고 중점사항을 파악하는 것을 목표로 합니다.각 항목별 이론/실습으로 학습합니다.
 
 ::: details 상세 영역 ( 출처: aws certification 홈페이지 )
@@ -35,9 +34,8 @@ AWS-SAA 자격증 항목을 기준으로 AWS를 공부 합니다. 각 항목의 
 
 :::
 
-
-
-## 주요관점
+## Domain 3 안전한 애플리케이션 및 아키텍처 설계
+## AWS 보안 애플리케이션 계층 설계
 
 **세부영역**
 
