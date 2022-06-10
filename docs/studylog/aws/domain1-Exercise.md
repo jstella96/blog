@@ -1,9 +1,11 @@
 ---
-order: 2
+order: 15
 icon: creative
-title: Week 1 실습
-category:
-  - aws
+title: Domain1 실습
+category: 
+  - Aws
+tag: 
+  - SAA-C02 자격증
 editLink: false
 ---
 
