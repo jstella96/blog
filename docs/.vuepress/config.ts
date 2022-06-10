@@ -9,7 +9,9 @@ export default defineUserConfig({
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Noto+Sans+Display&family=Noto+Sans+KR&display=swap",
       },
+
     ],
+    ['link', { rel: 'icon', href: '/blog/myLogo.png' }]
   ],
   base: "/blog/",
   title: "J.Stella Blog",
