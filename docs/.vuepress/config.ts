@@ -57,11 +57,12 @@ export default defineUserConfig({
 
     encrypt: {
       config: {
-        "/studylog/aws": ["0218"],
+        // "/studylog/aws": ["0218"],
         "/studylog/javascript/prototype.html": ["0218"],
       },
     },
     comment: false,
+    pwa: false,
     plugins: {
       blog: false,
       // you can also use Waline -?
@@ -80,13 +81,7 @@ export default defineUserConfig({
           plugins: ["highlight", "math", "search", "notes", "zoom"],
         },
       },
-      pwa: {
-        update: "disable",
-        favicon: "/blog/myLogo.ico",
-        manifest: {
-          theme_color:"#BD8F8F", 
-        }
-      },
+      pwa: false
 
     },
 
