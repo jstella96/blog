@@ -85,4 +85,10 @@ backtotop: false
 ### AWS - SAA
 
 자격증 공부 기간 : 2022년 4월~  
-**with 강남스터디:family:**
+**with 강남스터디:family:**  
+
+
+공부방식 : 각 도메인이 의미하는게 뭔지 주요 포인트를 파악하고 해당 주제에 대해 공부한다.  
+참고 강의 및 문서 :   
+[coursera강의](https://www.coursera.org/learn/aws-certified-solutions-architect-associate)  
+[aws FAQ](https://aws.amazon.com/ko/faqs/)
