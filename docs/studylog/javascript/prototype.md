@@ -1,6 +1,6 @@
 ---
 order: 6
-icon: lock
+icon: creative
 title: 프로토타입
 category:
   - JavaScript
