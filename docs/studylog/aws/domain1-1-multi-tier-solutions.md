@@ -145,3 +145,9 @@ Glacier에서는 객체를 인출하는 데는 ms ~ 수 시간이 소요될 수 
   * D. Auto Scaling을 이용해 단일 리전 내에 가용 영역에 걸쳐 유지하는 것은 응답 A보다 지연시간이 낫지 않습니다. 응답 A는 한 가용영역안에서 이루어집니다.
 
 위 문제는 배치그룹(placement groups) 에 대해 알고 있었다면 쉽게 답을 도출해 낼 수 있는 문제였습니다🙌 
+
+
+## Reference
+
+[coursera강의](https://www.coursera.org/learn/aws-certified-solutions-architect-associate)  
+[aws FAQ](https://aws.amazon.com/ko/faqs/)

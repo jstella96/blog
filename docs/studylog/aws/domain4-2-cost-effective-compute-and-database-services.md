@@ -92,4 +92,7 @@ D. Run the microservices in containers using Amazon Elastic Container Service ba
   * C, 이것은 AWS Elastic Beanstalk와 같은 이유로 올바르지 않습니다. 이것은 빠르게 확장되지 않으며 잠재적으로 유휴 리소스의 문제도 있습니다. 따라서 이 답변은 잘못된 것입니다. 
   * D, 마이크로 서비스가 컨테이너에 있기 때문에 개별 서비스에 대한 확장은 매우 빠릅니다. 그러나 요청 볼륨이 크게 변경될 가능성이 있는 클러스터를 확장해야 하는 경우 클러스터를 확장하는 데 몇 분이 걸립니다. 이것은 요구 사항에 충분히 빠르지 않습니다. 이 솔루션은 또한 Amazon EC2 기반 서비스이기 때문에 리소스를 유휴 상태로 만들 가능성이 동일합니다. 즉, API Gateway 및 AWS Lambda만큼 비용 효율적이지 않습니다. 
   
-  
+## Reference
+
+[coursera강의](https://www.coursera.org/learn/aws-certified-solutions-architect-associate)  
+[aws FAQ](https://aws.amazon.com/ko/faqs/)

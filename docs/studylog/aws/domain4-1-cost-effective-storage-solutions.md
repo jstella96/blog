@@ -122,3 +122,9 @@ AWS Trusted Advisor에서 비용 최적화 검사를 검토한 후 팀은 계정
   
 
 위 질문처럼 단지 맞는 기술을 사용한 것 이상으로 최소한의 노력이나 비용 최적화와 같은 특정 요구 사항에 따라 솔루션을 비교하고 대조할 수 있어야 하고 그런 부분에도 신경을 써서 공부해야 함을 알 수 있습니다.
+
+
+## Reference
+
+[coursera강의](https://www.coursera.org/learn/aws-certified-solutions-architect-associate)  
+[aws FAQ](https://aws.amazon.com/ko/faqs/)

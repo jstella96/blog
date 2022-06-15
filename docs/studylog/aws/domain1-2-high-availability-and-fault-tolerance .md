@@ -129,3 +129,9 @@ D. Warm standby
   * B,C. 이 두개의 답안은 RPO 및 RTO 요구 사항을 충족할 가능성이 있지만 둘 다 축소된 버전의 애플리케이션이 있는 완전한 기능의 DR 사이트를 포함하지 않기 때문에 올바르지 않습니다.
 
 [DR Architecture 관련 AWS 문서링크](https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-i-strategies-for-recovery-in-the-cloud/)
+
+
+## Reference
+
+[coursera강의](https://www.coursera.org/learn/aws-certified-solutions-architect-associate)  
+[aws FAQ](https://aws.amazon.com/ko/faqs/)

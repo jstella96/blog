@@ -102,3 +102,8 @@ E. Enforce the deletion of the root account so that it can't be used.
   * C. 루트 사용자는 자신의 계정에 대한 역할을 맡을 수 없기 때문에 이것은 올바르지 않습니다. 역할은 계정 내의 서비스와 다른 AWS 계정에 대한 타사 액세스에 사용됩니다. 
 
   * E. 루트 계정이 삭제되면 모든 리소스가 삭제되기 때문에 작동하지 않습니다. 이 경우 더 이상 AWS에서 환경을 실행하지 않습니다.
+
+## Reference
+
+[coursera강의](https://www.coursera.org/learn/aws-certified-solutions-architect-associate)  
+[aws FAQ](https://aws.amazon.com/ko/faqs/)

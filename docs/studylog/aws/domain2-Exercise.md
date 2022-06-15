@@ -88,3 +88,8 @@ editLink: false
 ## 마무리
 아직 연결이 성공적으로 되었는지 확인 할 방법은 없습니다. ec2에 접속하여 하나의 서버를 구동시키고,
 ec2의 `public dns address` 주소로 접근이 되는지 확인합니다.
+
+## Reference
+
+[coursera강의](https://www.coursera.org/learn/aws-certified-solutions-architect-associate)  
+[aws FAQ](https://aws.amazon.com/ko/faqs/)

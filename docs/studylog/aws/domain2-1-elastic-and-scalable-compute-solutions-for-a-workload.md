@@ -121,3 +121,8 @@ D. EC2 인스턴스 및 Auto Scaling 그룹 대신 AWS Lambda 함수를 사용. 
   * D: EC2 인스턴스 및 Auto Scaling 그룹 대신 AWS Lambda 함수 사용이 있습니다. 충분한 동시 기능이 동시에 실행될 수 있도록 서비스 할당량을 늘립니다. 
     처리 작업을 실행하는 데 최대 1시간이 걸릴 수 있지만 AWS Lambda 함수의 런타임 제한은 15분입니다.
 
+
+## Reference
+
+[coursera강의](https://www.coursera.org/learn/aws-certified-solutions-architect-associate)  
+[aws FAQ](https://aws.amazon.com/ko/faqs/)

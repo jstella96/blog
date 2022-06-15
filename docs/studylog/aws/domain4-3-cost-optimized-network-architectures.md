@@ -103,3 +103,7 @@ D. Configure AWS Site-to-Site VPN to log in directly to the EC2 instances. Takin
   * D. EC2 인스턴스에 직접 로그인하도록 AWS Site-to-Site VPN 구성이 있습니다. 이제 VPN 연결 설정이 이 사용 사례에 적합하기 때문에 이것은 강력한 방해 요소입니다. 그러나 VPN 연결에는 추가 비용이 발생하므로 가장 비용 효율적인 솔루션이 아니므로 잘못된 응답이 됩니다.
 
 
+## Reference
+
+[coursera강의](https://www.coursera.org/learn/aws-certified-solutions-architect-associate)  
+[aws FAQ](https://aws.amazon.com/ko/faqs/)

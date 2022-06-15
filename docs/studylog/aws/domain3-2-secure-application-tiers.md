@@ -98,3 +98,7 @@ E. 인터넷에서 HTTPS 요청을 허용하는 웹 서버 보안 그룹을 생�
   * C. VPN 연결을 위해 특별히 활용되는 VGW의 사용을 제안합니다. 이것은 웹 계층이 인터넷에서 액세스할 수 있는 방법을 제공하지만 애플리케이션 계층을 보호하지는 않습니다.
   * D. 언뜻 보기에는 E와 매우 유사해 보이지만 그렇지 않습니다. 제안된 보안 그룹은 요구 사항의 요청보다 더 열려 있습니다. 애플리케이션 보안 그룹은 API Gateway를 다시 활용하려고 하며 앞서 말씀드린 것처럼 이 서비스는 요구 사항에 대한 솔루션이 아닙니다.
 
+## Reference
+
+[coursera강의](https://www.coursera.org/learn/aws-certified-solutions-architect-associate)  
+[aws FAQ](https://aws.amazon.com/ko/faqs/)

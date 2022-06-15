@@ -111,3 +111,8 @@ E. Amazon Kinesis를 사용하여 스트리밍 데이터를 Amazon Redshift로 �
   * C. 작업을 수행하고 데이터가 DynamoDB 스트림에 추가될 때 실행할 Lambda 함수를 호출할 수 있기 때문에 이 답은 작동할 수 있습니다. 그러나 문제는 이 작업을 수행하기 위해 Kinesis를 사용하는 것보다 더 많은 운영 오버헤드가 필요하다는 것입니다. Lambda 함수를 작성하려면 일부 사용자 지정 코드가 필요하기 때문입니다.
   * E. Kinesis를 사용하여 Redshift에 데이터를 전달할 수도 있지만 Amazon S3에서는 분석을 위해 다양한 소스의 데이터를 쉽게 결합할 수 있기 때문에 Amazon S3가 이 시나리오에서 운영 오버헤드가 적은 선택입니다.
 
+
+## Reference
+
+[coursera강의](https://www.coursera.org/learn/aws-certified-solutions-architect-associate)  
+[aws FAQ](https://aws.amazon.com/ko/faqs/)

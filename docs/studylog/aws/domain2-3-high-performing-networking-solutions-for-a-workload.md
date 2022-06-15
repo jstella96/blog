@@ -150,3 +150,8 @@ D. 각 VPC와 공유 서비스 VPC 간에 VPN 연결을 생성합니다.
 VPC 간에 연결을 설정하는 방법을 더 자세히 알아야합니다. 또한 매우 일반적인 공유 서비스 VPC가 있는 시나리오를 포함하여 다중 계정 설정을 위한 네트워킹 전략을 설계하는 방법도 알고 있어야 합니다.
 
 
+
+## Reference
+
+[coursera강의](https://www.coursera.org/learn/aws-certified-solutions-architect-associate)  
+[aws FAQ](https://aws.amazon.com/ko/faqs/)

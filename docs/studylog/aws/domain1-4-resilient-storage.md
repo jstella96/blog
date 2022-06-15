@@ -94,3 +94,8 @@ AWS-SAA 자격증 항목을 기준으로 AWS를 공부 합니다. 각 항목의 
   * A. S3는 홈 디렉토리와 같은 파일 시스템을 제공하지 않는다는 것입니다.  
   * B. 인스턴스 스토리지는 일시적이며 단일 인스턴스에만 연결할 수 있다. 여러 EC2 인스턴스 간에 연결하거나 이동할 수 없다.  
   * D. EBS 볼륨은 여러 인스턴스에 연결할 수 있지만, EBS 볼륨은 인스턴스용 시스템 드라이브 또는 데이터베이스 애플리케이션용 스토리지와 같이 자주 업데이트해야 하는 데이터 스토리지용으로 더 잘 설계되었습니다. 또한 단일 EBS 볼륨을 서로 다른 가용 영역의 여러 인스턴스에 탑재할 수 없습니다.
+
+## Reference
+
+[coursera강의](https://www.coursera.org/learn/aws-certified-solutions-architect-associate)  
+[aws FAQ](https://aws.amazon.com/ko/faqs/)

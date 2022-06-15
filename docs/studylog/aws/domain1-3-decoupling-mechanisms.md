@@ -103,3 +103,8 @@ D. Amazon Kinesis
   * A. SQS standard queue만으로는 문제에 명시된 메시지 순서 요구 사항을 충족하지 못합니다.   
   * B. 이것은 한 계층에서 다음 계층으로 이동하는 메시지를 처리할 수 있지만 SQS 표준 대기열과 비교할 때 부족한 점이 있습니다. 1) SNS는 메시지 전달을 보장하지 않는다는 것 2) SNS가 메시지 순서를 보장하지 않는다는 것 3) 가장 큰 문제는 SNS가 대기열이 아니며 메시지 지속성이 없다는 것 입니다.  
   * D. Kinesis는 데이터 수집, 처리 및 분석에 적합하지만 스트리밍, 실시간 데이터 수집에 더 적합합니다. 해당 문제의 요구사항으로 봤을 때 SQS FIFO 대기열만큼 이상적이지 않습니다.
+
+## Reference
+
+[coursera강의](https://www.coursera.org/learn/aws-certified-solutions-architect-associate)  
+[aws FAQ](https://aws.amazon.com/ko/faqs/)

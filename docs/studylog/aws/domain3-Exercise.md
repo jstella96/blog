@@ -75,3 +75,8 @@ editLink: false
 
 ## 마무리
 RDS의 Read replica에서는 기본에서 읽고 쓰기를 수행한 다음 읽기 전용쿼리가 있다면 이 읽기 전용 복제본으로 이동한다. 따라서 요청을 지시할 위치를 알고 있어야 한다. 반면 DynamoDB Accelerator를 사용하면 애플리케이션이 클러스터와 통신하고 그런 다음 모든 통신이 뒤에서 처리된다
+
+## Reference
+
+[coursera강의](https://www.coursera.org/learn/aws-certified-solutions-architect-associate)  
+[aws FAQ](https://aws.amazon.com/ko/faqs/)

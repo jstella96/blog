@@ -91,3 +91,9 @@ S3에 엑세스 하기위해서는 두가지 사항을 설정해줘야한다. IA
 ![IAM](./img/domain1/exercise/26.png) 
 ![IAM](./img/domain1/exercise/27.png) 
 2. 해당 실습때 사용한 AWS 리소스를 꼭 삭제해야한다.:fire:
+
+
+## Reference
+
+[coursera강의](https://www.coursera.org/learn/aws-certified-solutions-architect-associate)  
+[aws FAQ](https://aws.amazon.com/ko/faqs/)
