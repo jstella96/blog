@@ -9,8 +9,9 @@ tag:
 editLink: false
 ---
 
-## 실습 목표 : 탄력성 구현
- Amazon Elastic Compute Cloud(Amazon EC2)에서 애플리케이션을 시작한다. 애플리케이션은 확장 가능하고 가용성이 높아야 한다. Amazon EC2 Auto Scaling 그룹 및 Application Load Balancer를 설정하는 작업을 해야한다.
+## 실습 목표 : 탄력성 있는 아키텍처 구성
+
+Amazon Elastic Compute Cloud(Amazon EC2)에서 애플리케이션을 시작한다. 애플리케이션은 확장 가능하고 가용성이 높아야 한다. Amazon EC2 Auto Scaling 그룹 및 Application Load Balancer를 설정하는 작업을 해야한다.
 
 **사용하는 기술 및 개념**
 * Application Load Balancer
