@@ -63,19 +63,23 @@ Decoupling : 마이크로서비스 간 상호의존을 줄인 구성으로 각�
 
 ## 키워드
 ::: tip Simple Queue Service(SQS)
-AWS의 메시지 대기열(queues) 서비스이다. 
+AWS의 메시지 대기열(queues) 서비스입니다. 
 * FIFO 대기열은 메시지가 전송되고 수신되는 정확한 순서를 보존합니다.
 * 표준 대기열(Standard queues)은 메시지 순서를 보존하려고 시도하는 느슨한 FIFO 기능을 제공합니다. 확장에 초점을 맞춰 설계되어 전송된 정확한 순서대로 메시지가 수신된다고 보장할 수 없습니다.
 * 별도의 구성 없이 Amazon SQS로 전송하는 트래픽 양을 확장하거나 축소할 수 있습니다.  
 [관련 문서](https://aws.amazon.com/ko/sqs/faqs/)
 :::
 
-::: tip SNS
-
+::: tip Simple Notification Service(SNS)
+Publisher(발행자)가 Subscriber(구독자)에게 메세지를 전송하는 관리형 서비스입니다.
+Topic은 수많은 구독자들에게 팬아웃될 수 있습니다. 이때 전달 방식은 다양합니다.
+* A2A 발행/구독 : 분산 시스템, 마이크로서비스 및 이벤트 중심의 서버리스 애플리케이션 사이에서 처리량이 높은 푸시 기반의 다대다 메시징을 위한 주제를 제공합니다. 발행자는 병렬 처리를 위해 Amazon SQS 대기열, AWS Lambda 함수, HTTPS 엔드포인트 및 Amazon Kinesis Data Firehose를 비롯한 많은 구독자 시스템으로 메시지를 팬아웃할 수 있습니다. 
+* A2P 기능을 사용하면 SMS, 모바일 푸시 및 이메일을 통해 대규모로 사용자에게 메시지를 전송할 수 있습니다.
+[관련 문서](https://aws.amazon.com/ko/sns/faqs/)
 :::
 
 ::: tip Kinesis
-
+실시간 스트리밍 데이터를 손쉽게 수집, 처리 및 분석할 수 있는 서비스입니다.  데이터를 실시간 처리해 S3와 같은 스토리지에 저장한 후, 다양한 일괄 처리를 할 수 있습니다. 완전관리형입니다. 
 :::
 ## Question
 
