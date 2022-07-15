@@ -1,2 +1,1 @@
-# J.Stella Blog
-🏠[링크](https://jstella96.github.io/blog/)
+블로그 운영안합니다. 먼저 지식을 깊게 쌓은 후에 본격적으로 시작하겠습니다:fire:
